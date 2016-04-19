@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <title>EVIDENS</title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/estilos.css">
+      <link href="css/lightbox.css" rel="stylesheet" />
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/prefixfree.min.js"></script>
+      <!-- link to JQuery.showbyscroll -->
+      <script src="js/jquery.showbyscroll.js"></script>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyBVJ_ioEvOld9aj0OOv5X3xNRR-EO-DQf8&libraries=places"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sty.css">
+    <link rel="stylesheet" href="css/grid.min.css">
+    </head>
+    <body onload="cambio()">
+<script>
+$(function() {
+  $( '.showbyscroll' ).showByScroll({
+      'class': 'show',
+      'offsetIndex': 1.5,
+      'onlyView': true
+    });
+});
+$(document).ready(function() {
+  num = Math.floor(Math.random() * (4 - 0) + 0);
+  // console.log(num);
+  $('.hash').eq(num).css('display','inline');
+});
+</script>
+
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo" style="padding-left:25px;"><img src="img/logo1.png"  class="responsive"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons ic">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#somos" class="tn">SOMOS</a></li>
+        <li><a href="#acerca" class="tn">ACERCA</a></li>
+        <li><a href="#categorias" class="tn">EXPERIENCIAS</a></li>
+        <li><a href="#como" class="tn">CÓMO LO HACEMOS</a></li>
+        <li><a href="#infografias" class="tn">INFOGRAFÍAS</a></li>
+        <li><a href="#" class="tn">BLOG</a></li>
+        <li><a href="#contacto" class="tn">CONTACTO</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#somos" class="tn">SOMOS</a></li>
+        <li><a href="#acerca" class="tn">ACERCA</a></li>
+        <li><a href="#categorias" class="tn">EXPERIENCIAS</a></li>
+        <li><a href="#como" class="tn">CÓMO LO HACEMOS</a></li>
+        <li><a href="#infografias" class="tn">INFOGRAFÍAS</a></li>
+        <li><a href="#" class="tn">BLOG</a></li>
+        <li><a href="#contacto" class="tn">CONTACTO</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="video" style='overflow: hidden;'>
+  <div class="intro">
+    <div class="evidens">Investigación de mercados y consultoría líquida</div>
+    <div class="hashtag">
+      <span class="hash">#ConoceSienteActuaEvidens</span>
+      <span class="hash">#MundoEvidensExistePorqueLoVemos</span>
+      <span class="hash">#SomosTodoTerreno</span>
+      <span class="hash">#HistoriasConvertidasEnPosibilidades</span>
+    </div>
+  </div>
+  <video preload="none" autoplay id="videobg" loop="loop" poster="https://s3-us-west-2.amazonaws.com/evidens/video/poster.png">
+      <source src="https://s3-us-west-2.amazonaws.com/evidens/video/video.mp4" type="video/mp4" />
+    </video>
+</div>
+<div class="row height-auto small-12 first" id="somos" data-background="#243C5A" style="width:100%; height:100%;">
+    <div class="col s12 m6">
+            <div class="white-text">
+              <p class="blanco" style="text-align:justify;"><strong class="big">SOMOS</strong><br><br>
+              Nos une la pasión por emprender misiones que susciten historias y experiencias, que se reconfiguren en posibilidades, para descubrir códigos y traducirlos en lenguaje de conocimiento. <br><br>
+              Experimentar con sentidos abiertos e hipersensibles los secretos revelados en la aventura cotidiana, observar para crear, imaginar para planear, avanzar con la experiencia e intervenir con inteligencia todos los terrenos que signifiquen un reto para nuestros clientes. <br><br>
+              Nos une el impulso por encontrar esa respuesta inadvertida e inspiradora, de donde nace el conocimiento que se provoca.
+              </p>                            
+            </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="col s12">
+          <a data-target="modal1" class="modal-trigger"><img src="img/logosareas.png" class="responsive-img fromRight showbyscroll ble" ></a>
+        </div>
+
+</div>
+</div><!--fin slide-->
+
+<div class="row"></div>
+  <div class="slide row height-auto" id="acerca" data-background="#243C5A" style="width:100%; height:100%; padding:0">
+    <div class="col s12 m6">
+              <div class="row">
+              <div class="col s12 white-text">
+              <p class="blanco" style="text-align:justify;"><strong class="big condensed">ACERCA DE</strong><br><br>
+              Vivimos el concepto de lo "multidisciplinario" y somos concientes de que debemos observar bajo un modelo que se desarrolle en el tiempo y se configure en el espacio para tranformar la mirada de lo que haciamos tradicionalmente a partir del acercamiento y entendimiento de los imaginarios sociales. <br><br>
+              Tenemos el compromiso de gestionar y construir conocimiento desde la experiencia humana y de consumo.
+              </p>
+              </div>
+              </div>
+    </div>              
+    <div class="col s12 m6">
+      <p><img src="img/cerebro1.png" class="responsive-img fromRight showbyscroll ble"></p>
+    </div>    
+  </div>
+  <div class="slide row height-auto" id="acerca" data-background="#02C392" style="width:100%; height:100%; padding:0">
+    <div class="col s12 m6">
+              <div class="row">
+              <div class="col s12 white-text">
+              <p class="blanco condensed" style="text-align:justify;"><strong class="big condensed">NUESTRO EQUIPO</strong><br><br>
+              <div class="col s6">
+                Omar Estrada, <br>
+                <span class="light">Director general </span><br><br>  
+
+                Gloria Hidalgo <br>
+                <span class="light">Directora comercial</span> <br> <br>
+
+                Hilda Vera <br>
+                <span class="light">Gerente de proyectos</span> <br> <br>
+
+                Arely Villa <br>
+                <span class="light">Gerente de proyecto</span>s <br><br>
+
+                Sergio Anda <br>
+                <span class="light">Director comercia</span>l <br><br>
+
+                Guillermo Martínez <br>
+                <span class="light">Gerente de proyecto</span>s <br><br>
+              </div>
+              <div class="col s6">
+                Ildefonso Leonides <br>
+                <span class="light">Investigador analist</span>a <br><br>
+
+                Celeste Argumedo <br>
+                <span class="light">Investigador analist</span>a <br><br>
+
+                Edith Cruz <br>
+                <span class="light">Gerente de Logística Gesel</span>l <br><br>
+
+                Anel Absalón <br>
+                <span class="light">Coordinadora administrativa</span>
+   <br><br>
+                Montserrat Escoto <br>
+                <span class="light">Ejecutiva de cámara</span>s <br><br>
+              </p>
+              </div>
+              </div>
+              </div>
+    </div>              
+    <div class="col s12 m6">
+      <p><img src="img/foto.png" class="responsive-img fromRight showbyscroll ble"></p>
+    </div>    
+  </div>
+  <div class="row"></div>
+  <div class="slide row height-auto" id="categorias" data-background="#9E5DE1" style="width:100%; height:100%;">
+    <center>
+    <div class="col s12"><p style="text-align:justify;"><center><strong class="big blanco">CATEGORÍAS DE EXPERIENCIAS</strong></center></p>
+      <br><br>
+      </div>
+    <div class="col s12 m6 ">
+    <img src="img/izquierda.png" class="responsive-img" style="width:100px; height:100px;">
+    <br>
+    <img src="img/izquierdac.png" class="responsive-img" style="width:300px; height:300px;">
+    </div>
+    <div class="col s12 m6">
+    <img src="img/derecha.png" class="responsive-img" style="width:100px; height:100px;">
+    <br>
+    <img src="img/derechac.png" class="responsive-img" style="width:300px; height:300px;">
+    </div>
+  </center>
+  </div>
+
+
+  <div class="slide row height-auto" id="como" data-background="#ffffff" style="width:100%; height:100%;">
+    <div class="col s12">
+        <p class="negro" style="text-align:justify;"><center><strong class="big greey">COMO LO HACEMOS</strong></center></p><br><br>
+        <p class="negro" style="text-align:justify; padding-left:30px; padding-right:30px;">Nos movemos en el tiempo para abordar, pensar y actuar las necesidades de una manera diferente: creatividad + expertise por medio de intervenciones metodológicas a través de las cuales buscamos salir de la estructura de metodologías tradicionales para confirmar, descartar y alcanzar respuestas inadvertidas desde diferentes frentes.
+        </p>
+    </div>
+
+<div class="col s12">
+  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header white"><strong>Antropológicos</strong></div>
+      <div class="collapsible-body">
+        <p>
+        a) Etnografía<br>
+        b) Ethno-mistery<br>
+        c) Ethno-experience<br>
+        d) Netnographies<br>
+        e) Compra acompañada<br>
+        f) Jeep<br>
+      </p>
+    </div>
+    </li>
+    <li>
+      <div class="collapsible-header white"><strong>Cualitativos</strong></div>
+      <div class="collapsible-body">
+        <p class='first'>
+        a) Entrevistas a profundidad<br>
+        b) Entrevistas insitu<br>
+        c) Focus groups<br></p>
+        <div class="indented">
+          -Mini group<br>
+          -Triadas<br>
+          -Peer group<br>
+        </div>
+        <p class='last'>
+        d) Co-creación<br>
+        e) Workshops<br>
+        f) Face yourself<br>
+        g) Eye Fly<br>
+        </p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header white"><strong>Cuantitativo</strong></div>
+      <div class="collapsible-body">
+        <p>
+        a) Evaluaciones publicitarias.<br>
+        b) Licencias de productos.<br>
+        c) Evaluación de productos y servicios.<br>
+        d) Prueba de productos.<br>
+        e) Estudios de satisfacción.<br>
+        f) Evaluación de eventos.<br>
+        g) Evaluación de imagen corporativa.<br>
+        h) Estudio de Identidad de marca.<br>
+        i) Evaluación y posicionamiento.<br>
+        j) Promociones.<br>
+        k) Estudios de seguimiento (Tracking).<br>
+        l) Sindicados. <br>
+        </p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header white"><strong>Insight Visual</strong></div>
+      <div class="collapsible-body">
+        <p class='first'>
+        a)Tilt Shift<br></p>
+        <div class="indented last">
+          -Texturas visuales<br>
+          -Análisis semiótico<br>
+          -Análisis de contexto y situación<br>
+          -Dinámica cultural/simbólica<br>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header white"><strong>Neuromarketing</strong></div>
+      <div class="collapsible-body ">
+        <p class='first'>
+        a) Diagnóstico NeuroKPI<br>
+        b) Neurometáforas <br>
+        c) Eye Tracker <br>
+        </p>
+        <div class="indented last">
+          -Axon-Ad<br>
+          -Axon-Shopp<br>
+          -Sensa*86<br>
+          -Brand-Ax<br>
+        </div><br>
+      </div>
+    </li>        
+  </ul>  
+</div>
+</div>
+
+
+  <div class="row height-auto" id="infografias">
+    <div class="col s12">
+              <p class="negro" style="text-align:justify;"><center><strong class="big greey">INFOGRAFÍAS</strong></center><br><br></p>
+    </div>
+    <div class="row cont-infografias">
+      <center>
+        <div class="col s12 m3 image">
+          <img src="img/infografias/info1.jpg" class="responsive-img info" >
+        </div>
+        <div class="col s12 m3 image">
+          <img src="img/infografias/info2.jpg" class="responsive-img info">
+        </div>
+        <div class="col s12 m3 image">
+          <img src="img/infografias/info3.jpg" class="responsive-img info">
+        </div>
+        <div class="col s12 m3 image">
+          <img src="img/infografias/info4.jpg" class="responsive-img info">
+        </div>
+      </center>
+</div>
+  </div>
+
+  <div class="row height-auto" id="contacto">
+<p class="negro" style="text-align:justify; padding-top:50px;"><center><strong class="big greey">CONTACTO</strong></center><br><br></p>    
+<div class="map-wrapper">
+  <div class="contact">
+  <div class="title">Email:</div>
+  <div class="text light">
+    correo@ejemplo.com
+  </div>
+  <div class="title">dirección:</div>
+  <div class="text light ">
+    Torre Hemicor Insurgentes Sur 826 <br>
+Piso 14, Col. Del Valle. <br>
+Ciudad de México.  <br>
+  </div>
+  <div class="title">teléfonos:</div>
+  <div class="text light">
+    52 5264 0759 <br>
+52 5536 1601 <br>
+52 55361627 <br>
+  </div>
+  </div>
+  <div id="map"></div>
+  <footer class="footer">
+    <div class="text-left">
+      Evidence &#174; Todos los derechos reservados
+    </div>
+    <div class="image-logo"></div>
+  </footer>
+</div>
+
+<script src='js/jquery.scrollie.min_1.js'></script>
+<script src="js/index.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/map.js"></script>
+<div class="pop-up"><img src=""/></div>
+<div id="modal1" class="modal trans">
+  <div class="row  hero">
+
+</div>
+</div>
+</body>
+</html>
+        
+

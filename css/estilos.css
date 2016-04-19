@@ -1,0 +1,396 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic);
+.condensed{
+  font-family: 'Roboto Condensed';
+}
+.greey{
+  color:#666;
+}
+.tn{
+	color: #666;
+  font-family: 'Roboto Condensed';
+  font-size: 1em;
+}
+.row{
+  padding: 0
+}
+.row{
+  padding-top: 4em
+}
+.row:after{
+  content: '';
+  display: inline-block;
+}
+.ic{
+	color: #000;
+}
+.height-auto{
+  height: auto !important;
+}
+body {
+  transition: background 1s ease;
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.blanco {
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+.negro {
+  color: #666;
+}
+.light{
+  font-weight: lighter;
+}
+.big{
+  font-family: 'Roboto Condensed';
+  /*font-family: Josefin_Sans_Bold;*/
+  font-size: 2.5em;
+}
+
+p{
+  font-family: 'Roboto';
+}
+.collapsible-header strong{
+  text-transform: uppercase;
+}
+.video{
+  display: block;
+  width: 100%;
+  height: 70%;
+  min-height: 30em;
+  position: relative;;
+}
+.video video{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.slide .inside {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding: 0 3em;
+}
+.slide .inside p {
+  display: table-cell;
+  width: 100%;
+  clear: both;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.slide{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 50px;
+  height: 599px;
+}
+
+img.ble {
+  opacity: 0;
+  transition: all ease 2s;
+}
+
+img.fromRight {
+  vertical-align: middle;
+ transform: translate(45px, 0px); 
+}
+
+img.show {
+  vertical-align: middle;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.trans{
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+}
+p.first{
+  padding-bottom: 0;
+}
+p.last{
+  padding-top: 0;
+}
+.indented{
+  display: inline-block;
+  padding: 0;
+  margin:0;
+  padding-left: 3em;
+}
+.fromRight{
+  max-height: 30em;
+}
+.indented.last{
+  padding-bottom: 2em
+}
+.collapsible-body{
+  font-weight: bold;
+}
+.collapsible-header.white{
+  background-color: #f4f4f4 !important;
+}
+.collapsible-header.active{
+  background-color: #ffb74d !important;
+}
+
+.info:hover{
+  cursor: pointer;
+}
+.image{
+  height: 250px;
+  overflow: hidden;
+  padding: 0.3em !important;
+}
+.image img{
+  width: 100%;
+  height: auto
+}
+.image:hover{
+     opacity: .7;
+     transition: .3s
+}
+.map-wrapper{
+  position: absolute;
+  left: 0;
+  height: 30em;
+  width: 100%;
+}
+.map-wrapper .contact{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  color: #fff;
+  width: 15em;
+  padding: 1.5em 2em;
+  font-size: 1em
+
+}
+.contact .title{
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-family: 'Roboto Condensed';
+  display: block;
+  padding-top: 1em;
+}
+.contact .title:first-of-type{
+  padding-top: 0;
+}
+.map-wrapper .footer{
+  height: 5em;
+  background: #fff;
+}
+.footer .text-left{
+  padding: 2.5em 2em;
+  color: #666;
+  display: inline-block;
+  font-size: .8em
+}
+.footer .image-logo{
+  display: inline-block;
+  float: right;
+  right: 2em;
+  background-image: url('../img/logosmall.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  top: 0;
+  width: 80px;
+}
+#map{
+  display: block;
+  position: relative;
+  min-height:100%;
+}
+.scattered{
+  position: absolute;
+  width: auto;
+  height: 20em !important;
+}
+.scattered.show.2{
+  z-index: 9;
+}
+.scattered.show.1{
+  top: 1em;
+  left: 1em;
+  transform: translateY(4em);
+}
+.scattered.show.2{
+  top: -4em;
+}
+.scattered.show.1{
+  transition-delay: .1s !important;
+  transition-duration: .2s !important;
+}
+.scattered.show.2{
+  transition-delay: .5s !important;
+  transition-duration: .4s !important;
+}
+.scattered.show.3{
+  transition-delay: .3s !important;
+  transition-duration: .7s !important;
+}
+
+#conbg{
+  background-image: url("../img/mapa.png");
+  height: 400px;
+  width: 100%;
+}
+.intro{
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  color: #fff;
+  margin:auto;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  padding: 1em 0;
+  font-size: 2em;
+}
+.intro .evidens{
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+}
+.intro .hashtag{
+  font-size: .67em;
+  /*font-weight: bold;*/
+  font-family: 'Roboto Condensed';
+}
+.hashtag .hash{
+  display: none;
+}
+/*-----Inicio pop up -----*/
+.pop-up { display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 999; background-color: rgba(23, 23, 23, 0.8); overflow: auto; }
+.pop-up img { max-width: 600px; margin: 50px auto; display: block; }
+.pop-up .pop-up-box { max-width: 500px; background-color: #ffffff; display: block; margin: 50px auto 0 auto; }
+.pop-up .pop-up-box h1 { font-size: 1.5em; background-color: #f98a3e; color: #ffffff; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 10px 5px; }
+.pop-up .pop-up-box form { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 10px; }
+.pop-up img { max-width: 90%; } }
+.pop-up-box { max-width: 100%; } }
+
+#info{
+  height: 472px;
+  width: 155px;
+}
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cd-background-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.no-touch .cd-background-wrapper {
+  -webkit-perspective: 4000px;
+  -moz-perspective: 4000px;
+  perspective: 4000px;
+}
+.cd-background-wrapper::before {
+  /* never visible - this is used in jQuery to check the device type */
+  content: 'web';
+  display: none;
+}
+.touch .cd-background-wrapper::before {
+  /* never visible - this is used in jQuery to check the device type */
+  content: 'mobile';
+}
+
+.cd-floating-background {
+  position: relative;
+}
+.cd-floating-background img {
+  display: block;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* fixes a Firefox bug - images not correctly rendered*/
+  background-color: rgba(255, 255, 255, 0.01);
+}
+.cd-floating-background img:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.no-touch .cd-floating-background {
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.no-touch .cd-floating-background.is-absolute {
+  position: absolute;
+}
+.no-touch .cd-floating-background img:first-child {
+  -webkit-transform: translateZ(50px);
+  -moz-transform: translateZ(50px);
+  -ms-transform: translateZ(50px);
+  -o-transform: translateZ(50px);
+  transform: translateZ(50px);
+}
+.no-touch .cd-floating-background img:nth-child(2) {
+  -webkit-transform: translateZ(290px);
+  -moz-transform: translateZ(290px);
+  -ms-transform: translateZ(290px);
+  -o-transform: translateZ(290px);
+  transform: translateZ(290px);
+}
+.no-touch .cd-floating-background img:nth-child(3) {
+  -webkit-transform: translateZ(400px);
+  -moz-transform: translateZ(400px);
+  -ms-transform: translateZ(400px);
+  -o-transform: translateZ(400px);
+  transform: translateZ(400px);
+}
+.no-touch.no-preserve-3d .cd-floating-background {
+  /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
+  position: relative;
+}
+
+/*-----inicio hover effects-----*/
+.hero {
+  color: #fff;
+  background-image: url("http://communications.oregonstate.edu/sites/communications.oregonstate.edu/files/social_background.jpeg");
+  -webkit-animation: animatedBackground 20s linear infinite;
+          animation: animatedBackground 20s linear infinite;
+}
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 600px 0;
+  }
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 600px 0;
+  }
+}
