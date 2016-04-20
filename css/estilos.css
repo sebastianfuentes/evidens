@@ -315,6 +315,18 @@ p.last{
   z-index:-1;
   opacity: .3
 }
+.chava .title{
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.chava .text{
+  text-align: left;
+  padding-left: 2em;
+  font-size: 1.2em;
+  padding-top: 1em;
+  font-weight: lighter;
+}
 .relative{
   position: relative;
 }
