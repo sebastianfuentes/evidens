@@ -9,7 +9,6 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="css/estilos.css">
       <link href="css/lightbox.css" rel="stylesheet" />
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="js/jquery.js"></script>
@@ -24,6 +23,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sty.css">
     <link rel="stylesheet" href="css/grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
     <body onload="cambio()">
 <script>
@@ -81,47 +81,50 @@ $(document).ready(function() {
       <source src="https://s3-us-west-2.amazonaws.com/evidens/video/video.mp4" type="video/mp4" />
     </video>
 </div>
-<div class="row height-auto small-12 first" id="somos" data-background="#243C5A" style="width:100%; height:100%;">
-    <div class="col s12 m6">
-            <div class="white-text">
-              <p class="blanco" style="text-align:justify;"><strong class="big">SOMOS</strong><br><br>
-              Nos une la pasión por emprender misiones que susciten historias y experiencias, que se reconfiguren en posibilidades, para descubrir códigos y traducirlos en lenguaje de conocimiento. <br><br>
-              Experimentar con sentidos abiertos e hipersensibles los secretos revelados en la aventura cotidiana, observar para crear, imaginar para planear, avanzar con la experiencia e intervenir con inteligencia todos los terrenos que signifiquen un reto para nuestros clientes. <br><br>
-              Nos une el impulso por encontrar esa respuesta inadvertida e inspiradora, de donde nace el conocimiento que se provoca.
-              </p>                            
-            </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="col s12">
-          <a data-target="modal1" class="modal-trigger"><img src="img/logosareas.png" class="responsive-img fromRight showbyscroll ble" ></a>
-        </div>
+<div class="stars">
+  <div class="row height-auto small-12 first slide" id="somos" data-background="#243C5A" style="width:100%; height:100%;">
+      <div class="columns small-12 medium-6">
+              <div class="white-text">
+                <p class="blanco" style="text-align:justify;"><strong class="big">SOMOS</strong><br><br>
+                Nos une la pasión por emprender misiones que susciten historias y experiencias, que se reconfiguren en posibilidades, para descubrir códigos y traducirlos en lenguaje de conocimiento. <br><br>
+                Experimentar con sentidos abiertos e hipersensibles los secretos revelados en la aventura cotidiana, observar para crear, imaginar para planear, avanzar con la experiencia e intervenir con inteligencia todos los terrenos que signifiquen un reto para nuestros clientes. <br><br>
+                Nos une el impulso por encontrar esa respuesta inadvertida e inspiradora, de donde nace el conocimiento que se provoca.
+                </p>                            
+              </div>
+      </div>
+      <div class="columns small-12 medium-6 even">
+          <div class="columns small-12">
+            <a data-target="modal1" class="modal-trigger"><img src="img/logosareas.png" class="responsive-img fromRight showbyscroll ble" ></a>
+          </div>
 
+  </div>
 </div>
 </div><!--fin slide-->
 
-<div class="row"></div>
+<div class="stars">
   <div class="slide row height-auto" id="acerca" data-background="#243C5A" style="width:100%; height:100%; padding:0">
-    <div class="col s12 m6">
+    <div class="columns small-12 medium-6">
               <div class="row">
-              <div class="col s12 white-text">
+              <div class="columns small-12 white-text">
               <p class="blanco" style="text-align:justify;"><strong class="big condensed">ACERCA DE</strong><br><br>
-              Vivimos el concepto de lo "multidisciplinario" y somos concientes de que debemos observar bajo un modelo que se desarrolle en el tiempo y se configure en el espacio para tranformar la mirada de lo que haciamos tradicionalmente a partir del acercamiento y entendimiento de los imaginarios sociales. <br><br>
+              Vivimos el concepto de lo "multidisciplinario" y somos concientes de que debemos observar bajo un modelo que se desarrolle en el tiempo y se configure en el espacio para transformar la mirada de lo que haciamos tradicionalmente a partir del acercamiento y entendimiento de los imaginarios sociales. <br><br>
               Tenemos el compromiso de gestionar y construir conocimiento desde la experiencia humana y de consumo.
               </p>
               </div>
               </div>
     </div>              
-    <div class="col s12 m6">
+    <div class="columns small-12 medium-6 even">
       <p><img src="img/cerebro1.png" class="responsive-img fromRight showbyscroll ble"></p>
     </div>    
   </div>
+</div>
   <div class="slide row height-auto" id="acerca" data-background="#02C392" style="width:100%; height:100%; padding:0">
-    <div class="col s12 m6">
+    <div class="columns small-12 medium-6">
               <div class="row">
-              <div class="col s12 white-text">
+              <div class="columns small-12 white-text">
               <p class="blanco condensed" style="text-align:justify;"><strong class="big condensed">NUESTRO EQUIPO</strong><br><br>
-              <div class="col s6">
-                Omar Estrada, <br>
+              <div class="columns small-6">
+                Omar Estrada <br>
                 <span class="light">Director general </span><br><br>  
 
                 Gloria Hidalgo <br>
@@ -139,7 +142,7 @@ $(document).ready(function() {
                 Guillermo Martínez <br>
                 <span class="light">Gerente de proyecto</span>s <br><br>
               </div>
-              <div class="col s6">
+              <div class="columns small-6">
                 Ildefonso Leonides <br>
                 <span class="light">Investigador analist</span>a <br><br>
 
@@ -159,22 +162,22 @@ $(document).ready(function() {
               </div>
               </div>
     </div>              
-    <div class="col s12 m6">
+    <div class="columns small-12 medium-6">
       <p><img src="img/foto.png" class="responsive-img fromRight showbyscroll ble"></p>
     </div>    
   </div>
   <div class="row"></div>
-  <div class="slide row height-auto" id="categorias" data-background="#9E5DE1" style="width:100%; height:100%;">
+  <div class="slide row height-auto" id="categorias" data-background="#FAB600" style="width:100%; height:100%;">
     <center>
-    <div class="col s12"><p style="text-align:justify;"><center><strong class="big blanco">CATEGORÍAS DE EXPERIENCIAS</strong></center></p>
+    <div class="columns small-12"><p style="text-align:justify;"><center><strong class="big whiti">CATEGORÍAS DE EXPERIENCIA</strong></center></p>
       <br><br>
       </div>
-    <div class="col s12 m6 ">
+    <div class="columns small-12 medium-6 ">
     <img src="img/izquierda.png" class="responsive-img" style="width:100px; height:100px;">
     <br>
     <img src="img/izquierdac.png" class="responsive-img" style="width:300px; height:300px;">
     </div>
-    <div class="col s12 m6">
+    <div class="columns small-12 medium-6">
     <img src="img/derecha.png" class="responsive-img" style="width:100px; height:100px;">
     <br>
     <img src="img/derechac.png" class="responsive-img" style="width:300px; height:300px;">
@@ -183,14 +186,14 @@ $(document).ready(function() {
   </div>
 
 
-  <div class="slide row height-auto" id="como" data-background="#ffffff" style="width:100%; height:100%;">
-    <div class="col s12">
-        <p class="negro" style="text-align:justify;"><center><strong class="big greey">COMO LO HACEMOS</strong></center></p><br><br>
-        <p class="negro" style="text-align:justify; padding-left:30px; padding-right:30px;">Nos movemos en el tiempo para abordar, pensar y actuar las necesidades de una manera diferente: creatividad + expertise por medio de intervenciones metodológicas a través de las cuales buscamos salir de la estructura de metodologías tradicionales para confirmar, descartar y alcanzar respuestas inadvertidas desde diferentes frentes.
+  <div class="slide row height-auto" id="como" data-background="#FAB600" style="width:100%; height:100%;">
+    <div class="columns small-12">
+        <p class="blanco" style="text-align:justify;"><center><strong class="big blanco">CÓMO LO HACEMOS</strong></center></p><br><br>
+        <p class="blanco" style="text-align:justify; padding-left:30px; padding-right:30px;">Nos movemos en el tiempo para abordar, pensar y actuar las necesidades de una manera diferente: creatividad + expertise por medio de intervenciones metodológicas a través de las cuales buscamos salir de la estructura de metodologías tradicionales para confirmar, descartar y alcanzar respuestas inadvertidas desde diferentes frentes.
         </p>
     </div>
 
-<div class="col s12">
+<div class="columns small-12">
   <ul class="collapsible popout" data-collapsible="accordion">
     <li>
       <div class="collapsible-header white"><strong>Antropológicos</strong></div>
@@ -248,13 +251,11 @@ $(document).ready(function() {
       <div class="collapsible-header white"><strong>Insight Visual</strong></div>
       <div class="collapsible-body">
         <p class='first'>
-        a)Tilt Shift<br></p>
-        <div class="indented last">
-          -Texturas visuales<br>
-          -Análisis semiótico<br>
-          -Análisis de contexto y situación<br>
-          -Dinámica cultural/simbólica<br>
-        </div>
+        a)Tilt Shift<br>
+                  b)Texturas visuales<br>
+          c)Análisis semiótico<br>
+          d)Análisis de contexto y situación<br>
+          e)Dinámica cultural/simbólica<br></p>
       </div>
     </li>
     <li>
@@ -264,13 +265,10 @@ $(document).ready(function() {
         a) Diagnóstico NeuroKPI<br>
         b) Neurometáforas <br>
         c) Eye Tracker <br>
-        </p>
-        <div class="indented last">
-          -Axon-Ad<br>
-          -Axon-Shopp<br>
-          -Sensa*86<br>
-          -Brand-Ax<br>
-        </div><br>
+          d)Axon-Add<br>
+          e)Axon-Shopp<br>
+          f)Sensa*86<br>
+          g)Brand-Ax<br></p>
       </div>
     </li>        
   </ul>  
@@ -278,22 +276,22 @@ $(document).ready(function() {
 </div>
 
 
-  <div class="row height-auto" id="infografias">
-    <div class="col s12">
-              <p class="negro" style="text-align:justify;"><center><strong class="big greey">INFOGRAFÍAS</strong></center><br><br></p>
+  <div class="row height-auto slide" data-background="#000" id="infografias">
+    <div class="columns small-12">
+              <p class="negro" style="text-align:justify;"><center><strong class="big blanco">INFOGRAFÍAS</strong></center><br><br></p>
     </div>
     <div class="row cont-infografias">
       <center>
-        <div class="col s12 m3 image">
-          <img src="img/infografias/info1.jpg" class="responsive-img info" >
-        </div>
-        <div class="col s12 m3 image">
+        <div class="columns small-12 medium-3 image">
           <img src="img/infografias/info2.jpg" class="responsive-img info">
         </div>
-        <div class="col s12 m3 image">
+        <div class="columns small-12 medium-3 image">
           <img src="img/infografias/info3.jpg" class="responsive-img info">
         </div>
-        <div class="col s12 m3 image">
+        <div class="columns small-12 medium-3 image">
+          <img src="img/infografias/info1.jpg" class="responsive-img info" >
+        </div>
+        <div class="columns small-12 medium-3 image">
           <img src="img/infografias/info4.jpg" class="responsive-img info">
         </div>
       </center>
@@ -301,7 +299,7 @@ $(document).ready(function() {
   </div>
 
   <div class="row height-auto" id="contacto">
-<p class="negro" style="text-align:justify; padding-top:50px;"><center><strong class="big greey">CONTACTO</strong></center><br><br></p>    
+<p class="blanco" style="text-align:justify; padding-top:50px;"><center><strong class="big blanco">CONTACTO</strong></center><br><br></p>    
 <div class="map-wrapper">
   <div class="contact">
   <div class="title">Email:</div>
