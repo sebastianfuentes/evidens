@@ -93,9 +93,9 @@ p{
   display: block;
   left: 0;
   top: 0;
-  background-image: url('../img/estrellas.png');
+  background-image: url('../img/fondo5.png');
   background-size: contain;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   opacity: .4;
   background-attachment: fixed;;;
 }
