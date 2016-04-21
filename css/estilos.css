@@ -110,10 +110,10 @@ p{
   display: block;
   left: 0;
   top: 0;
-  background-image: url('../img/fondo1.jpeg');
+  background-image: url('../img/fondo1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: .4;
+  opacity: .2;
   background-attachment: fixed;;;
 }
 .graffiti{
@@ -325,7 +325,7 @@ p.last{
   top: 0;
   left: 0;
   background-size: cover;
-  background-image: url('../img/chava.png');
+  background-image: url('../img/chava.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   content: '';
