@@ -102,6 +102,23 @@ p{
 .stars{
   position: relative;
 }
+.graffiti:before{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content:'';
+  display: block;
+  left: 0;
+  top: 0;
+  background-image: url('../img/fondo1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .4;
+  background-attachment: fixed;;;
+}
+.graffiti{
+  position: relative;
+}
 .slide{/*
   margin-top: 200px;
   margin-bottom: 200px;*/
