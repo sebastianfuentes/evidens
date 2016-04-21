@@ -328,7 +328,7 @@ p.last{
   top: 0;
   left: 0;
   background-size: cover;
-  background-image: url('../img/chava.jpg');
+  background-image: url('../img/chava.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   content: '';
