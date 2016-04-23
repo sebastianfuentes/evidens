@@ -30,6 +30,10 @@
 .ic{
   color: #000;
 }
+.margin{
+  margin: 0 !important;
+  display: none
+}
 .height-auto{
   height: auto !important;
 }
@@ -44,7 +48,9 @@ body {
 .blanco {
   color: #ffffff;
 }
-
+.guy{
+  cursor: pointer;
+}
 .negro {
   color: #666;
 }

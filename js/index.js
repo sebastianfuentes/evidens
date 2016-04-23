@@ -90,6 +90,9 @@ $(document).ready(function(){
     $("a#close-panel").click(function(){
     $("#lightbox, #lightbox-panel").fadeOut(300);
   })
+  // $('.guy').hover(
+  //   console.log($(this).attr('class'));
+  // );
 });
 //-----fin lightbox
 
