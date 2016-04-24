@@ -123,5 +123,4 @@ $(document).ready(function() {
 	} else {
 		$('video').remove(); //remove video if resolution si mobile
 	}
-	console.log($(window).width());
 });

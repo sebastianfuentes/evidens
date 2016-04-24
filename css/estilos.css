@@ -32,7 +32,6 @@
 }
 .margin{
   margin: 0 !important;
-  display: none
 }
 .height-auto{
   height: auto !important;
@@ -457,7 +456,9 @@ Primary style
   /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
   position: relative;
 }
-
+.hidden{
+  display: none
+}
 /*-----inicio hover effects-----*/
 .hero {
   color: #fff;

@@ -12,9 +12,7 @@ $( window ).ready(function() {
       .scrollie({
         scrollOffset : -50,
         scrollingInView : function(elem) {
-          console.log(elem);
           var bgColor = elem.data('background');
-          
           $('body').css('background-color', bgColor);
           
         }
