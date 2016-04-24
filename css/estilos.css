@@ -158,10 +158,11 @@ img.show {
 }
 .area img{
   display: inline-block;
-  padding: .5em 1em;
   height: 160px;
   width: 160px;
   border-radius: 100%;
+  background: #fff;
+  background: rgba(0,0,0,0.8);
 }
 .area .area-description{
   display: inline-block;
@@ -177,6 +178,7 @@ img.show {
 .trans{
   background: rgba(0,0,0,0.8);
   padding: 10px;
+  overflow-x: hidden;
 }
 p.first{
   padding-bottom: 0;
