@@ -21,7 +21,6 @@
   padding: 0
 }
 .row{
-  padding-top: 4em
 }
 .row:after{
   content: '';
@@ -154,9 +153,29 @@ img.show {
   opacity: 1;
   transform: translate(0, 0);
 }
-
+.area{
+  padding-top: 1em
+}
+.area img{
+  display: inline-block;
+  padding: .5em 1em;
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+}
+.area .area-description{
+  display: inline-block;
+}
+.area .title{
+  font-weight: bold;
+  color: #fff;
+}
+.area .text{
+  padding: 1em;
+  color: #fff;
+}
 .trans{
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.8);
   padding: 10px;
 }
 p.first{
