@@ -527,6 +527,8 @@ Ciudad de México.  <br>
 <script>
   $('.guy').mouseover(function(){
     var guy = $(this).attr('class').split(' ')[1];
+    $('.guy').removeClass('active')
+    $(this).addClass('active')
     $('.preview .previewed').not('.'+guy).addClass('hidden');
     $('.preview .previewed.'+guy).removeClass('hidden');
   });

@@ -180,6 +180,9 @@ img.show {
   padding: 10px;
   overflow-x: hidden;
 }
+.guy.active{
+  font-weight: 600;
+}
 p.first{
   padding-bottom: 0;
 }
