@@ -162,7 +162,7 @@ img.show {
   width: 160px;
   border-radius: 100%;
   background: #fff;
-  background: rgba(0,0,0,0.8);
+  background: rgba(19,43,75,.8);
 }
 .area .area-description{
   display: inline-block;
@@ -176,7 +176,7 @@ img.show {
   color: #fff;
 }
 .trans{
-  background: rgba(0,0,0,0.8);
+  background: rgba(19,43,75,.8);
   padding: 10px;
   overflow-x: hidden;
 }
