@@ -30,6 +30,7 @@
 .row.previewed{
   padding: 2em 1em;
   background: rgba(0,0,0,0.2);
+  text-align: justify;
 }
 .ic{
   color: #000;
