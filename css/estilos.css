@@ -182,6 +182,22 @@ img.show:hover{
   opacity: .7;
   transition: .3s ease;
 }
+.categories{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: left;
+}
+.categories .title{
+  padding-left: 2em
+}
+.categories:nth-child(1){
+  border-right: 1px solid #fff
+}
+.categories:nth-child(2) .text{
+  /*background-color: rgba(0,0,0,0.3);*/
+  text-align: left;
+  padding-right: 2em;
+}
 .areas{
   padding: 1em 2em 1.5em;
   font-family: 'Open Sans';
@@ -548,4 +564,8 @@ Primary style
   to {
     background-position: 600px 0;
   }
+}
+
+
+.text {
 }
