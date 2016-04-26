@@ -177,6 +177,9 @@ img.show {
   opacity: 1;
   transform: translate(0, 0);
 }
+.areas{
+  padding: 1em 2em 1.5em;
+}
 .area{
   padding-top: 1em
 }
@@ -194,15 +197,20 @@ img.show {
 .area .title{
   font-weight: bold;
   color: #fff;
+  display: block;
 }
 .area .text{
-  padding: 1em;
+  padding: 1em 0;
   color: #fff;
 }
 .trans{
-  background: rgba(19,43,75,.8);
+  background: rgba(19,43,75,0.85);
   padding: 10px;
   overflow-x: hidden;
+  top: 30% !important;
+}
+.lean-overlay{
+  opacity: .7 !important;
 }
 .guy.active{
   font-weight: 600;
