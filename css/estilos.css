@@ -133,7 +133,7 @@ p{
   background-size: cover;
   background-repeat: no-repeat;
   opacity: .4;
-  background-attachment: fixed;;;
+  background-attachment: fixed;
 }
 .stars{
   position: relative;
@@ -176,9 +176,15 @@ img.show {
   vertical-align: middle;
   opacity: 1;
   transform: translate(0, 0);
+  filter: opacity;;
+}
+img.show:hover{
+  opacity: .7;
+  transition: .3s ease;
 }
 .areas{
   padding: 1em 2em 1.5em;
+  font-family: 'Open Sans';
 }
 .area{
   padding-top: 1em
