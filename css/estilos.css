@@ -13,6 +13,26 @@
 .indentado{
   padding-left: 1.5em
 }
+.somos img{
+  height: 100px;
+  width: 140px;
+}
+.somos .small-4{
+  /*padding: 0*/
+}
+
+.somos .middle{
+  padding:0;
+}
+.somos .middle img{
+  width: 140px;
+  height: 140px;
+}
+.somos .last img{
+  width: 100px;
+  height: 100px;
+}
+
 .tn{
   color: #666;
   font-family: 'Roboto Condensed';
