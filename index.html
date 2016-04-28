@@ -77,9 +77,11 @@ $(document).ready(function() {
       <span class="hash">#HistoriasConvertidasEnPosibilidades</span>
     </div>
   </div>
-  <video preload="none" autoplay id="videobg" loop="loop" poster="https://s3-us-west-2.amazonaws.com/evidens/video/poster.png">
-      <source src="https://s3-us-west-2.amazonaws.com/evidens/video/video.mp4" type="video/mp4" />
-    </video>
+  <div class="slides">
+    <div class="slider" style='background-image: url(img/slides/slide1.jpg);'></div>
+    <div class="slider" style='background-image: url(img/slides/slide2.png);'></div>
+    <div class="slider" style='background-image: url(img/slides/slide3.jpg);'></div>
+  </div>
 </div>
 <div class="">
   <div class="row height-auto small-12 first slide" id="somos" data-background="#275796" style="width:100%; height:100%;">
@@ -445,7 +447,7 @@ Ciudad de México.  <br>
 <script src='js/jquery.scrollie.min_1.js'></script>
 <script src="js/index.js"></script>
 <script src="js/lightbox.min.js"></script>
-<script src="js/main.js"></script>
+<!-- <script src="js/main.js"></script> -->
 <script src="js/map.js"></script>
 <div class="pop-up"><img src=""/></div>
 <div id="modal1" class="modal trans">
@@ -571,6 +573,48 @@ Ciudad de México.  <br>
     $('.preview .previewed').not('.'+guy).addClass('hidden');
     $('.preview .previewed.'+guy).removeClass('hidden');
   });
+  $(document).ready(function (){
+      var images = $(".slider");
+      var duration = 30; // duration in seconds
+      var fadeAmount = 0.3; // fade duration amount relative to the time the image is visible
+      var numImages = images.size();
+      var durationMs = duration * 1000;
+      var imageTime = durationMs / numImages; // time the image is visible 
+      var fadeTime = imageTime * fadeAmount; // time for cross fading
+      var visibleTime = imageTime  - (imageTime * fadeAmount * 2);// time the image is visible with opacity == 1
+      var animDelay = visibleTime * (numImages - 1) + fadeTime * (numImages - 2); // animation delay/offset for a single image 
+      console.log(images);
+      images.each( function( index, element ){
+        if(index != 0){
+          $(element).css("opacity","0");
+          setTimeout(function(){
+            doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);
+          },visibleTime*index + fadeTime*(index-1));
+        }else{
+          setTimeout(function(){
+            $(element).animate({opacity:0},fadeTime, function(){
+              setTimeout(function(){
+                doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);
+              },animDelay )
+            });
+          },visibleTime);
+        }
+      });
+      
+      // creates a animation loop
+      function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime){
+        fadeInOut(element,fadeInTime, visibleTime, fadeOutTime ,function(){
+          setTimeout(function(){
+            doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime);
+          },pauseTime);
+        });
+      }
+
+      // shorthand for in- and out-fading
+      function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
+        return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);
+      }
+    });
 </script>
 </body>
 </html>

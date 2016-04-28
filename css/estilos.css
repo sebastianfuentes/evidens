@@ -8,6 +8,40 @@
 .whiti{
   color:#fff;
 }
+.slides{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.slider{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+} 
 .greey{
   color:#666;
 }
