@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
 .condensed{
   font-family: 'Roboto Condensed';
@@ -138,7 +139,7 @@ body {
 }
 
 p{
-  font-family: 'Open Sans';
+  font-family: 'Josefin Sans';
   text-align: left !important;
 }
 .collapsible-header strong{
