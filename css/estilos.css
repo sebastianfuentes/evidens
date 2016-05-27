@@ -88,6 +88,14 @@
   text-align: left;
   min-height: 17em;
 }
+.small-text{
+  font-size: .8em;
+}
+span.orange{
+  font-size: 1.2em;
+  color: #FB804F;
+  background-color: transparent !important;
+}
 .ic{
   color: #000;
 }
@@ -96,6 +104,10 @@
 }
 .height-auto{
   height: auto !important;
+}
+nav ul a:hover {
+    background-color: #FB804F;
+    color : #fff;
 }
 body {
   transition: background 1s ease;
