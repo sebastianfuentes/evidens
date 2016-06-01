@@ -73,6 +73,19 @@
   color: #666;
   font-family: 'Roboto Condensed';
   font-size: 1em;
+  /*position: relative;*/
+}
+.featured{
+  position: relative;
+}
+.featured:after{
+  content: '';
+  display: block;;
+  width: 100%;
+  bottom: 0;
+  height: 5px;
+  position: absolute;
+  background: #FB804F;
 }
 .row{
   padding: 0
