@@ -68,12 +68,18 @@
   width: 100px;
   height: 100px;
 }
-
+.navbar-fixed{
+  z-index: 9999;
+}
 .tn{
   color: #666;
   font-family: 'Roboto Condensed';
   font-size: 1em;
   /*position: relative;*/
+}
+.tn:hover{
+  background: #eee;
+  color: #000;
 }
 .featured{
   position: relative;
@@ -83,9 +89,12 @@
   display: block;;
   width: 100%;
   bottom: 0;
-  height: 5px;
+  height: 4px;
   position: absolute;
   background: #FB804F;
+}.featured:hover:after{
+  transition: all .3s;
+  height: 6px;
 }
 .row{
   padding: 0
