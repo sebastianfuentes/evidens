@@ -395,6 +395,18 @@ p.last{
   height: 5em;
   background: #fff;
 }
+.footer .social{
+  display: inline-block;
+  float: right;
+  right: 100px;
+  margin-right: .5em
+  padding-top: 1.5em;
+}
+.footer .social i{
+  font-size: 2em;
+  color: #666;
+  margin-right: .6em
+}
 .footer .text-left{
   padding: 2.5em 2em;
   color: #666;
