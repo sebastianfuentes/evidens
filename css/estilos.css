@@ -71,6 +71,11 @@
 .navbar-fixed{
   z-index: 9999;
 }
+.socios{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 .tn{
   color: #666;
   font-family: 'Roboto Condensed';
@@ -153,6 +158,11 @@ body {
 }
 .light{
   font-weight: lighter;
+}
+.brand-logo.big{
+  display: block;
+  text-align: center;
+  padding-left:0 !important;
 }
 .big{
   font-family: 'Roboto Condensed';
