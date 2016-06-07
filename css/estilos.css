@@ -9,11 +9,21 @@
 .whiti{
   color:#fff;
 }
+.bold{
+  font-weight: bold
+}
 .slides{
   display: block;
   width: 100%;
   height: 100%;
   position: absolute;
+}
+.check{
+  list-style-type: circle;
+  color: #fff;
+}
+.check li{
+  list-style-type: disc;
 }
 .slider{
   width: 100%;
