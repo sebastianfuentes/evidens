@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
 .condensed{
-  font-family: 'Roboto Condensed';
+  font-family: 'Josefin Sans';
 }
 .whiti{
   color:#fff;
@@ -125,6 +125,7 @@
   padding: 2em 1em;
   background: rgba(0,0,0,0.2);
   text-align: left;
+  font-family: "Josefin Sans";
   min-height: 17em;
 }
 .row.previewed img{
@@ -135,6 +136,12 @@
 }
 .small-text{
   font-size: .8em;
+}
+span.blue{
+  font-size: 1.2em;
+  color: rgb(42, 80, 130);
+  font-weight: bold;
+  background-color: transparent !important;
 }
 span.orange{
   font-size: 1.2em;
@@ -169,6 +176,7 @@ body {
 }
 .guy{
   cursor: pointer;
+  font-family: "Josefin Sans"
 }
 .negro {
   color: #666;
@@ -185,6 +193,7 @@ body {
   font-family: 'Roboto Condensed';
   /*font-family: Josefin_Sans_Bold;*/
   font-size: 2.5em;
+  font-weight: bold
 }
 
 p{
