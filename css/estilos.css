@@ -62,9 +62,10 @@
 .somos img{
   height: 100px;
   width: 140px;
+  margin-top: .3em;
 }
-.somos .small-4{
-  /*padding: 0*/
+.somos .small-3{
+  padding: .3em
 }
 
 .somos .middle{
