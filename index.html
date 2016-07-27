@@ -36,7 +36,6 @@ $(function() {
 });
 $(document).ready(function() {
   num = Math.floor(Math.random() * (4 - 0) + 0);
-  // console.log(num);
   $('.hash').eq(num).css('display','inline');
 });
 </script>
@@ -395,9 +394,6 @@ $(document).ready(function() {
     <div class="row cont-infografias">
       <center>
         <div class="columns small-12 medium-3 image">
-          <img src="img/infografias/info2.jpg" class="responsive-img info">
-        </div>
-        <div class="columns small-12 medium-3 image">
           <img src="img/infografias/info3.jpg" class="responsive-img info">
         </div>
         <div class="columns small-12 medium-3 image">
@@ -405,6 +401,9 @@ $(document).ready(function() {
         </div>
         <div class="columns small-12 medium-3 image">
           <img src="img/infografias/info4.jpg" class="responsive-img info">
+        </div>
+        <div class="columns small-12 medium-3 image">
+          <img src="img/infografias/info1.jpg" class="responsive-img info">
         </div>
       </center>
   </div>
@@ -607,7 +606,6 @@ $(document).ready(function() {
       var fadeTime = imageTime * fadeAmount; // time for cross fading
       var visibleTime = imageTime  - (imageTime * fadeAmount * 2);// time the image is visible with opacity == 1
       var animDelay = visibleTime * (numImages - 1) + fadeTime * (numImages - 2); // animation delay/offset for a single image 
-      console.log(images);
       images.each( function( index, element ){
         if(index != 0){
           $(element).css("opacity","0");
