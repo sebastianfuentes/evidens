@@ -1,1 +1,646 @@
-<!DOCTYPE html><html lang="es">    <head>      <title>EVIDENS</title>      <!--Let browser know website is optimized for mobile-->      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>      <!--Import Google Icon Font-->      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">      <!--Import materialize.css-->      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>      <link href="css/lightbox.css" rel="stylesheet" />      <!--Import jQuery before materialize.js-->      <script type="text/javascript" src="js/jquery.js"></script>      <script type="text/javascript" src="js/materialize.min.js"></script>      <script src="js/init.js"></script>      <script src="js/prefixfree.min.js"></script>      <!-- link to JQuery.showbyscroll -->      <script src="js/jquery.showbyscroll.js"></script>    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>    <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyBVJ_ioEvOld9aj0OOv5X3xNRR-EO-DQf8&libraries=places"></script>    <link rel="stylesheet" href="css/normalize.css">    <link rel="stylesheet" href="css/style.css">    <link rel="stylesheet" href="css/sty.css">    <link rel="stylesheet" href="css/grid.min.css">    <link rel="stylesheet" type="text/css" href="css/estilos.css">    </head>    <body><script>$(function() {  $( '.showbyscroll' ).showByScroll({      'class': 'show',      'offsetIndex': 1.5,      'onlyView': true    });});$(document).ready(function() {  num = Math.floor(Math.random() * (4 - 0) + 0);  // console.log(num);  $('.hash').eq(num).css('display','inline');});</script><div class="navbar-fixed">  <nav class="white" role="navigation">    <div class="nav-wrapper">      <a href="#" class="brand-logo" style="padding-left:25px;"><img src="img/logo1.png"  class="responsive"></a>      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons ic">menu</i></a>      <ul class="right hide-on-med-and-down">        <li><a href="#somos" class="tn">SOMOS</a></li>        <li><a href="#acerca" class="tn">ACERCA DE</a></li>        <li><a href="#categorias" class="tn">EXPERIENCIAS</a></li>        <li><a href="#como" class="tn">CÓMO LO HACEMOS</a></li>        <li><a href="#infografias" class="tn">INFOGRAFÍAS</a></li>        <li class="featured"><a href="#" class="tn">BLOG</a></li>        <li><a href="#contacto" class="tn">CONTACTO</a></li>      </ul>      <ul class="side-nav" id="mobile-demo">        <li><a href="#somos" class="tn">SOMOS</a></li>        <li><a href="#acerca" class="tn">ACERCA</a></li>        <li><a href="#categorias" class="tn">EXPERIENCIAS</a></li>        <li><a href="#como" class="tn">CÓMO LO HACEMOS</a></li>        <li><a href="#infografias" class="tn">INFOGRAFÍAS</a></li>        <li><a href="#" class="tn">BLOG</a></li>        <li><a href="#contacto" class="tn">CONTACTO</a></li>      </ul>    </div>  </nav></div><div class="video" style='overflow: hidden;'>  <div class="intro">    <div class="evidens">Investigación de mercados y consultoría líquida</div>    <div class="hashtag">      <span class="hash">#ConoceSienteActuaEvidens</span>      <span class="hash">#MundoEvidensExistePorqueLoVemos</span>      <span class="hash">#SomosTodoTerreno</span>      <span class="hash">#HistoriasConvertidasEnPosibilidades</span>    </div>  </div>  <video preload="none" autoplay id="videobg" loop="loop" poster="https://s3-us-west-2.amazonaws.com/evidens/video/poster.png">      <source src="http://www.camarasdegesell.com/wp-content/uploads/2015/10/video.mp4" type="video/mp4" />    </video></div><div class="">  <div class="row height-auto small-12 first slide" id="somos" data-background="#275796" style="width:100%; height:100%;">      <div class="columns small-12 medium-6">              <div class="white-text">              <p class="blanco" style="text-align:justify;">                <a href="#" class="brand-logo big" style="padding-left:25px;"><img src="img/logo.png"  class="responsive"></a>                <br>                <span class="socios">Socios AMAI <br>Apasionados por los mercados desde el 2002                </span>                <br>                Apasionados por investigar y <span class="orange">gestionar el conocimiento desde la experiencia humana y de consumo</span>, partimos de bases sólidas que nos permiten <span class="orange">adaptarnos de forma líquida y responder</span> con calidad, creatividad y eficiencia en el <span class="orange">acompañamiento consultivo para la toma de decisiones de nuestros clientes. </span>              </p>                <p class="blanco small-text" style="text-align:justify;">                En cada una de nuestras áreas de especialidad y divisiones de negocio, nuestros clientes encuentran satisfacción a sus necesidades, lo que nos ha dado continuidad y relaciones de largo plazo con nuestros clientes.              </p>                                        </div>      </div><!--               <a data-target="modal2" class="modal-trigger"><img src="img/adn/2.png" class="responsive-img fromRight showbyscroll ble"></a> -->                    <div class="columns small-12 medium-6 even somos">        <div class="columns small-3">              <a data-target="modal1" class="modal-trigger"><img src="img/iconosfinalevidens/4.png" class="responsive-img fromRight showbyscroll ble" style="margin-top:9.7em;"></a>        </div>        <div class="columns small-3">              <a data-target="modal3" class="modal-trigger"><img src="img/iconosfinalevidens/8.png" class="responsive-img fromRight showbyscroll ble" style="margin-top:3em;"></a>              <a data-target="modal4" class="modal-trigger"><img src="img/iconosfinalevidens/7.png" class="responsive-img fromRight showbyscroll ble"></a>              <a data-target="modal5" class="modal-trigger"><img src="img/iconosfinalevidens/1.png" class="responsive-img fromRight showbyscroll ble"></a>        </div>        <div class="columns small-3"  style="float:left">              <a data-target="modal6" class="modal-trigger"><img src="img/iconosfinalevidens/9.png" class="responsive-img fromRight showbyscroll ble"></a>              <a data-target="modal7" class="modal-trigger"><img src="img/iconosfinalevidens/2.png" class="responsive-img fromRight showbyscroll ble"></a>              <a data-target="modal8" class="modal-trigger"><img src="img/iconosfinalevidens/5.png" class="responsive-img fromRight showbyscroll ble"></a>              <a data-target="modal9" class="modal-trigger"><img src="img/iconosfinalevidens/3.png" class="responsive-img fromRight showbyscroll ble"></a>        </div>        <div class="columns small-3">              <a data-target="modal2" class="modal-trigger"><img src="img/iconosfinalevidens/6.png" class="responsive-img fromRight showbyscroll ble" style="margin-top:9.7em;"></a>        </div>      </div>  </div></div><!--fin slide--><div class="stars">  <div class="slide row height-auto" data-background="#275796" style="width:100%; height:100%; padding:0">    <div class="columns small-12">        <p class="blanco" style="text-align:justify;"><center><strong class="big blanco">INTERVENCIONES METODOLÓGICAS &copy;</strong></center></p><br>        <p class="blanco" style="text-align:justify; padding-left:30px; padding-right:30px;">        Enriquecemos las estructuras metodológicas tradicionales, a través de un <span class="orange bold">Modelo de intervenciones metodológicas, exclusivo de Evidens</span> que incluye diversas disciplinas con el fin de dar mayor <span class="orange bold">poder a nuestros clientes en sus decisiones y estrategias.</span>        </p>    </div>    <div class="small-12 columns" style="padding-bottom: 1em">      <div class="small-12 medium-6 columns" style="padding-left:30px; padding-right:30px;padding-top: 4em; font-family: 'Josefin Sans'">          <span class="orange" style="text-align:center; display: block">Llevamos al extremo el Ad-Hoc</span>        </span>        <ul class="check">          <li>Diseñamos vías de solución puntuales para cada necesidad</li>          <li>Hacemos eficiente la inversión de tus recursos en investigación</li>          <li>Producimos respuestas personalizadas</li>        </ul>      </div>      <div class="small-12 medium-6 columns">        <img src="img/0.png" class="responsive-img fromRight showbyscroll ble">      </div>    </div>  </div></div><div class="slide height-auto" id="acerca" data-background="#10b6a4" style="width:100%; height:100%; padding:1em 0">     <div class="row">      <div class="columns small-12">         <p style="text-align:center;margin:0"><strong class="big whiti" style="font-size: 2em">EXPERIENCIA EN SEGMENTOS, CATEGORÍAS, CONTEXTOS Y SITUACIONES</strong></p>         <center style="text-align:center;margin:0;" class="whiti">          #GestionamosConocimiento          <br>          #ConsumidorDelFuturo        </center>        <div class="columns small-12">          <p class="blanco" style="text-align:justify;">            Exploramos <span class="orange">todos los ángulos del mercado ahora y observando el futuro</span>, incluyendo distintos perfiles, productos de consumo masivo, servicios de distintos giros, hasta los trasfondos sociológicos y psicológicos de grupos, localidades y culturas que influyen las <span class="orange">decisiones y vínculos que orientan tendencias </span> y conformación social.          </p>         </div>        <div class="columns small-12" style="text-align:center">          <img src="img/evidens1.png" style="width: 200px">          <img src="img/evidens2.png" style="width: 200px">        </div>      </div>    </div>    <div class="columns small-6" style="padding-bottom: 2em">      <div class="columns small-12 medium-4">        <img src="img/iconosmsevidens/1.png">        <img src="img/iconosmsevidens/2.png">        <img src="img/iconosmsevidens/3.png">        <img src="img/iconosmsevidens/4.png">        <img src="img/iconosmsevidens/5.png">      </div>      <div class="columns small-12 medium-4" style="margin-top:3em">        <img src="img/iconosmsevidens/6.png">        <img src="img/iconosmsevidens/7.png">        <img src="img/iconosmsevidens/8.png">        <img src="img/iconosmsevidens/9.png">      </div>      <div class="columns small-12 medium-4" style="margin-top:8em">        <img src="img/iconosmsevidens/10.png">        <img src="img/iconosmsevidens/11.png">      </div>    </div>    <div class="columns small-6" style="padding-top:8em;padding-bottom: 2em">      <div class="columns small-12 medium-3">        <img src="img/iconosmsevidens/A1.png">      </div>      <div class="columns small-12 medium-3">        <img src="img/iconosmsevidens/A2.png">      </div>      <div class="columns small-12 medium-3">        <img src="img/iconosmsevidens/A3.png">      </div>      <div class="columns small-12 medium-3">        <img src="img/iconosmsevidens/A4.png">      </div>    </div></div><div class="row"></div>  <div class="chava">    <div class="slide row height-auto white-text" id="categorias" data-background="#452B77" style="width:100%; height:100%;padding-bottom: 5em">      <div class="columns small-12 medium-6">      <div class="row">      <div class="columns small-12 white-text">      <br>      <p class="blanco" style="text-align:center;"><center class="big condensed" style="font-size: 1.5em">RECONFIGURAMOS EL CONCEPTO DE “EQUIPO MULTIDISCIPLINARIO”</center><br><br>      <span class="blue">        Evidens es una comunidad que crea y se construye desde la suma de la diversidad      </span>      con profesiones que se entremezclan con perfiles versátiles,       de intereses, visiones y experiencias que aportan visión       amplia a la respuesta líquida y eficiente para nuestros       clientes.      <br>      <br>      El intercambio multidisciplinario nos ayuda a <span class="blue">transformar       la mirada</span> sobre la experiencia íntima del individuo, hasta       los imaginarios sociales que definen los mercados.      </p>      </div>      </div>    </div>                  <div class="columns small-12 medium-6 even">      <p><img src="img/cerebro1.png" class="responsive-img fromRight showbyscroll ble"></p>    </div>      </div></div><div class="slide row height-auto" id="como" data-background="#333" style="width:100%; height:100%;">            <div class="columns small-12 medium-6">                  <div class="row">                    <div class="columns small-12 white-text">                    <p class="blanco condensed" style="text-align:justify;"><strong class="big condensed">NUESTRO EQUIPO</strong><br><br>                    <div class="columns small-6">                        <div class="guy 0">                          Omar Estrada <br>                          <span class="light">Director general </span><br><br>                            </div>                                          <div class="guy 2">                          Sergio Anda <br>                          <span class="light">Director comercial</span> <br><br>                          </div>                        <div class="guy 5">                          Arely Villa <br>                          <span class="light">Gerente de proyectos</span><br><br>                          </div>                        <div class="guy 6">                          Ildefonso Leonides <br>                          <span class="light">Investigador analista</span> <br><br>                          </div>                        <div class="guy 8">                          Edith Cruz <br>                          <span class="light">Gerente de Logística Gesell</span> <br><br>                          </div>                        <div class="guy 10">                          Montserrat Escoto <br>                          <span class="light">Ejecutiva de cámaras</span> <br><br>                        </div>                         <div class="guy 9">                          Anel Absalón <br>                          <span class="light">Coordinadora administrativa</span> <br><br>                          </div>                        </div>                                <div class="columns small-6">                        <div class="guy 1">                          Gloria Hidalgo <br>                          <span class="light">Directora comercial</span> <br> <br>                          </div>                        <div class="guy 4">                          Hilda Vera <br>                          <span class="light">Gerente de proyectos</span> <br> <br>                          </div>                        <div class="guy 3">                          Guillermo Martínez <br>                          <span class="light">Gerente de proyectos</span> <br><br>                          </div>                                          <div class="guy 7">                          Celeste Argumedo <br>                          <span class="light">Investigador analista</span> <br><br>                          </div>                        <div class="guy 12">                          Marco Villa<br>                          <span class="light">Investigador Analista</span> <br><br>                          </div>                        <div class="guy 11">                          Adriana Camal<br>                          <span class="light">Operador Logístico G14</span> <br><br>                          </div>                      </div>                    </div>                  </div>          </div>                        <div class="preview columns small-12 medium-6" style='padding-top: 6em;'>            <p><img src="img/foto.png" class="previewed responsive-img fromRight showbyscroll ble"></p>            <div class="row">              <div class="row margin white-text">                 <div class="previewed hidden row margin 12">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                  Sociólogo de la UAM.                  Entusiasta del ejercicio, salir con amigos y pasear a sus                  perros.                   De mirada abierta para conocer el mundo a través de la                   comida, especialmente con platillos nuevos.                </div>                <div class="previewed hidden row margin 11">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                  Bailarina frustrada, pero apasionada de bailar salsa y                  cantante de regadera.                   Si necesitas alguien que te contagie su energía y buen                   humor, ella es la mejor.                  Aprende día a día sobre el maravilloso arte de la logística                   en Evidens.                </div>                <div class="previewed hidden row margin 10">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Enfocada, comprometida y dispuesta a dar una buena cara, reflejo de paciencia, amabilidad y dedicación. Se deleita con la música que describe al México cotidiano y pedalea constantemente por la Ciudad.                 </div>                <div class="previewed hidden row margin 9">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Administradora de Evidens Group pero no de su vida, apasionada de los ritmos latinos y de bailar salsa, siempre dispuesta a escuchar y entregar una sonrisa. Bartender frustrada pero lista para preparar unos magníficos “dragones” y “muppets”.                 </div>                <div class="previewed hidden row margin 8">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Apasionada, bromista y sonriente más cuando disfruta de un buen juego de pelota; en Grupo Evidens encontró que el trabajo no es sólo trabajo sino una gran diversión que día a día tiene nuevos retos y satisfacciones, y, que al cerrar el día, siempre debe ir acompañado de una buena canción de Metal.                </div>                <div class="previewed hidden row margin 7">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Investigadora en Evidens Group, agente creativa de contenidos y cazadora de nuevas tecnologías; un ente social casi extinto por su nivel de sarcasmo y de ironía dramática. Nunca baja la guardia ante los retos o circunstancias cambiantes y gusta de filosofar bajo la luz de la luna.                 </div>                <div class="previewed hidden row margin 6">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Moderador y analista con experiencia en diversos estudios sociales y de mercado desde un enfoque cualitativo. Apasionado de la antropología social y obsesionado por las series, el cine e irremediablemente amante del básquetbol                </div>                <div class="previewed hidden row margin 5">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                La investigación de mercados es su pretexto gratificante para perseguir realidades y personalidades. Es pambolera de medio tiempo, ciclista de ocasión y gran fanática del chocolate. Ocurrente pero educada, tremenda ocasional y prudente situacional. Siempre cultivando el espíritu del cuerpo que habita.                </div>                <div class="previewed hidden row margin 4">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Gerente de Investigación en Evidens Group. Ingeniosa y creativa con la vida. Una bailarina de Son Jarocho, amante de la cerveza, de los perros y de la música. “Molestona” por naturaleza pero dispuesta y determinada a ser el brazo fuerte de las cosas que le apasionan.                </div>                <div class="previewed hidden row margin 3">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Gerente de proyectos en Evidens Group, Torreonense de nacimiento y chilango circunstancial, apasionado del básquet bol, el ska y últimamente los perros, en una constante búsqueda de historias en distintas realidades.                </div>                <div class="previewed hidden row margin 2">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                Director comercial en Evidens Group, amante de los deportes, el ejercicio y de la playa. Está siempre en la búsqueda de encontrar y hacer cosas creativas e innovadoras; puede ser en una buena pizza o en una corcholata, una banqueta, bailando o en su almohada, porque es muy dormilón.                </div>                <div class="previewed hidden row margin 1">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                  Colabora en Evidens desde la diversificación de la Dirección Comercial. Alma de artista que busca divertirse en cada reto intelectual y creativo, es una “investigadora veinteañera” - empezó en 1995… adivina su edad ;) – comprometida, irremediable curiosa que la lleva a ensimismamientos repentinos y revoluciones en la mente… pero aunque la curiosidad la mate, aún tiene muchas vidas por investigar. De ideas necias, y cabellera azul con intensa vida propia.                </div>                <div class="previewed hidden row margin 0">                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">                  Eje conductor de Evidens Group, gestor de conocimiento desde la experiencia humana y de consumo, cronista de la vida cotidiana, cazador de intervenciones visuales y un apasionado de la Ciudad y de la observación de las diferentes manifestaciones urbanas. Chivista por decisión y sociólogo por convicción.                 </div>              </div>            </div>          </div>    </div><div class='graffiti'>  <div class="row height-auto slide relative" data-background="#272b2f" id="infografias">    <div class="columns small-12">        <center><strong class="big blanco">EVIDENS-ia</strong></center>        <center><strong class="big blanco">#ConocimientoLíquido</strong></center>        <div class="columns small-12">          <p class="blanco" style="text-align:justify;">            La Evidens-ia es un <span class="orange">microestudio            mensual para aportar datos y            reflexiones que provoquen e            inspiren.</span>            Abordamos al consumidor mexicano, las            audiencias y diversos temas coyunturales y            de oportunidad.            Es ejemplo de una <span class="orange">metodología            innovadora y flexible, presentada            en infografías</span> para respuestas rápidas y            precisas: <span class="orange">Active E-panel &copy;</span>          </p>         </div>        <br>    </div>    <div class="row cont-infografias">      <center>        <div class="columns small-12 medium-3 image">          <img src="img/infografias/info2.jpg" class="responsive-img info">        </div>        <div class="columns small-12 medium-3 image">          <img src="img/infografias/info3.jpg" class="responsive-img info">        </div>        <div class="columns small-12 medium-3 image">          <img src="img/infografias/info1.jpg" class="responsive-img info" >        </div>        <div class="columns small-12 medium-3 image">          <img src="img/infografias/info4.jpg" class="responsive-img info">        </div>      </center>  </div>  </div></div>  <div class="row height-auto slide" id="contacto"  data-background="#0e1318"><p class="blanco" style=""><center><strong class="big blanco">CONTACTO</strong></center><br><br></p>    <div class="map-wrapper">  <div class="contact">    <div class="title">Email:</div>    <div class="text light">      evidens@evidens.com.mx    </div>    <div class="title">dirección:</div>    <div class="text light ">      Torre Hemicor Insurgentes Sur 826 <br>  Piso 14, Col. Del Valle. <br>  Ciudad de México.  <br>    </div>    <div class="title">teléfonos:</div>    <div class="text light">      52 5264 0759 <br>      52 5536 1601 <br>      52 5536 1627 <br>    </div>  </div>  <div id="map"></div>  <footer class="footer">    <div class="text-left">      Evidens &#174; Todos los derechos reservados    </div>    <div class="image-logo"></div>    <div class="social">      <a target='_blank'href="https://www.facebook.com/Evidens-Investigaci%C3%B3n-de-Mercados-357854387647984"><i class="fa fa-facebook" aria-hidden="true"></i></a>      <a target='_blank'href="https://twitter.com/MiradaEvidens"><i class="fa fa-twitter" aria-hidden="true"></i></a>      <a target='_blank'href="https://instagram.com/evidens_significados"><i class="fa fa-instagram" aria-hidden="true"></i></a>    </div>  </footer></div><script src='js/jquery.scrollie.min_1.js'></script><script src="js/index.js"></script><script src="js/lightbox.min.js"></script><!-- <script src="js/main.js"></script> --><script src="js/map.js"></script><div class="pop-up"><img src=""/></div><div id="modal1" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          EVIDENS RESEARCH – Investigación y consultoría integradas        </span>        <span class="text">          Especialistas en Investigación multicontextos. Trabajamos para ser agentes de cambio e inspirar desde el aprendizaje como elemento activo, redescubriendo a las grandes marcas hasta los nuevos emprendedores, interviniendo desde el campo hasta el contexto urbano.        </span>      </div>    </div>  </div></div><div id="modal2" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">      <a target='_blank' href="http://www.camarasdegesell.com/">        <span class="title">          GESELL 14 – Facilities creativas con servicio de alto nivel        </span>        <span class="text">          Conoce nuestro servicio de Cámaras que se ubican en un edificio corporativo bajo un modelo de <span style='text-decoration: underline;'>Cámaras de Gesell Ejecutivas</span> con facilies ad-hoc.        </span>        </a>      </div>    </div>  </div></div><div id="modal3" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          ANTROPOLOGÍA – Experimentar al mercado.        </span>        <span class="text">          Nuestro profundo fundamento social y antropológico nospermite acercarnos a los imaginarios sociales y ser una          extensión de tu mirada en el mercado, con inmersión en los          contextos y realidades de cómo se viven, incorporan y          experimentan tus productos y servicios.        </span>      </div>    </div>  </div></div><div id="modal4" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          AGRO & VET        </span>        <span class="text">         Tenemos un alto conocimiento de la realidad del campo mexicano interactuando con agricultores, ganaderos y distribuidores, manejando su lenguaje y códigos para acercarnos a su cotidianidad.        </span>      </div>    </div>  </div></div><div id="modal5" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          BOUTIQUE 360 – Consultoría para hacer crecer emprendedores y marcas.        </span>        <span class="text">          Colaboramos con el desarrollo de la industria nacional,          potenciando las oportunidades del emprendedor mexicano,          con consultoría que capitaliza la experiencia Evidens con grandes marcas nacionales e internacionales.        </span>      </div>    </div>  </div></div><div id="modal6" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          BACK LIGHT – Hacemos equipo contigo desde el apoyo externo        </span>        <span class="text">         Soporte y acompañamiento integral en tus procesos de investigación. Nos convertimos en tu brazo cualitativo de corte antropológico.        </span>    </div>    </div>  </div></div><div id="modal8" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          EVIDENS CUANTITATIVO – Dimensionamos la profundidad        </span>        <span class="text">          Servicio profesional de levantamiento ético y de compromiso con el dato bajo un modelo de supervisión integral que nos permite garantizar el 100% de la confiabilidad de nuestro trabajo de campo.        </span>      </div>    </div>  </div></div><div id="modal7" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          C.I.N.E. 7 – Capacitación para potenciar tu acercamiento al target.        </span>        <span class="text">          Capacitación que Inspira a Nuevos Entendimientos. Cursos diseñados para usuarios de investigación, para hipersensibilizar la mirada en el mercado, desarrollar los sentidos para capturar realidades y códigos del consumidor y sus contextos        </span>      </div>    </div>  </div>  </div><div id="modal9" class="modal trans">  <div class="areas">    <div class="area row">      <div class="area-description columns small-12">        <span class="title">          AXON 86 – Neurociencias aplicadas al Marketing        </span>        <span class="text">          Evolucionando las formas para entender al          consumidor, develamos las instancias más          primarias y profundas del comportamiento          humano y de consumo        </span>      </div>    </div>  </div>  </div></div><script>  $('.guy').mouseover(function(){    var guy = $(this).attr('class').split(' ')[1];    $('.guy').removeClass('active')    $(this).addClass('active')    $('.preview .previewed').not('.'+guy).addClass('hidden');    $('.preview .previewed.'+guy).removeClass('hidden');  });  $(document).ready(function (){      var images = $(".slider");      var duration = 30; // duration in seconds      var fadeAmount = 0.3; // fade duration amount relative to the time the image is visible      var numImages = images.size();      var durationMs = duration * 1000;      var imageTime = durationMs / numImages; // time the image is visible       var fadeTime = imageTime * fadeAmount; // time for cross fading      var visibleTime = imageTime  - (imageTime * fadeAmount * 2);// time the image is visible with opacity == 1      var animDelay = visibleTime * (numImages - 1) + fadeTime * (numImages - 2); // animation delay/offset for a single image       console.log(images);      images.each( function( index, element ){        if(index != 0){          $(element).css("opacity","0");          setTimeout(function(){            doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);          },visibleTime*index + fadeTime*(index-1));        }else{          setTimeout(function(){            $(element).animate({opacity:0},fadeTime, function(){              setTimeout(function(){                doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);              },animDelay )            });          },visibleTime);        }      });      // creates a animation loop      function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime){        fadeInOut(element,fadeInTime, visibleTime, fadeOutTime ,function(){          setTimeout(function(){            doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime);          },pauseTime);        });      }      // shorthand for in- and out-fading      function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){        return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);      }    });</script></body></html>        
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <title>EVIDENS</title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="css/lightbox.css" rel="stylesheet" />
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/prefixfree.min.js"></script>
+      <!-- link to JQuery.showbyscroll -->
+      <script src="js/jquery.showbyscroll.js"></script>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyBVJ_ioEvOld9aj0OOv5X3xNRR-EO-DQf8&libraries=places"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sty.css">
+    <link rel="stylesheet" href="css/grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+<script>
+$(function() {
+  $( '.showbyscroll' ).showByScroll({
+      'class': 'show',
+      'offsetIndex': 1.5,
+      'onlyView': true
+    });
+});
+$(document).ready(function() {
+  num = Math.floor(Math.random() * (4 - 0) + 0);
+  // console.log(num);
+  $('.hash').eq(num).css('display','inline');
+});
+</script>
+
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo" style="padding-left:25px;"><img src="img/logo1.png"  class="responsive"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons ic">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#somos" class="tn">SOMOS</a></li>
+        <li><a href="#acerca" class="tn">ACERCA DE</a></li>
+        <li><a href="#categorias" class="tn">EXPERIENCIAS</a></li>
+        <li><a href="#como" class="tn">CÓMO LO HACEMOS</a></li>
+        <li><a href="#infografias" class="tn">INFOGRAFÍAS</a></li>
+        <li class="featured"><a href="#" class="tn">BLOG</a></li>
+        <li><a href="#contacto" class="tn">CONTACTO</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#somos" class="tn">SOMOS</a></li>
+        <li><a href="#acerca" class="tn">ACERCA</a></li>
+        <li><a href="#categorias" class="tn">EXPERIENCIAS</a></li>
+        <li><a href="#como" class="tn">CÓMO LO HACEMOS</a></li>
+        <li><a href="#infografias" class="tn">INFOGRAFÍAS</a></li>
+        <li><a href="#" class="tn">BLOG</a></li>
+        <li><a href="#contacto" class="tn">CONTACTO</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="video" style='overflow: hidden;'>
+  <div class="intro">
+    <div class="evidens">Investigación de mercados y consultoría líquida</div>
+    <div class="hashtag">
+      <span class="hash">#ConoceSienteActuaEvidens</span>
+      <span class="hash">#MundoEvidensExistePorqueLoVemos</span>
+      <span class="hash">#SomosTodoTerreno</span>
+      <span class="hash">#HistoriasConvertidasEnPosibilidades</span>
+    </div>
+  </div>
+  <video preload="none" autoplay id="videobg" loop="loop" poster="https://s3-us-west-2.amazonaws.com/evidens/video/poster.png">
+      <source src="http://www.camarasdegesell.com/wp-content/uploads/2015/10/video.mp4" type="video/mp4" />
+    </video>
+</div>
+<div class="">
+  <div class="row height-auto small-12 first slide" id="somos" data-background="#275796" style="width:100%; height:100%;">
+      <div class="columns small-12 medium-6">
+              <div class="white-text">
+              <p class="blanco" style="text-align:justify;">
+                <a href="#" class="brand-logo big" style="padding-left:25px;"><img src="img/logo.png"  class="responsive"></a>
+                <br>
+                <span class="socios">Socios AMAI <br>Apasionados por los mercados desde el 2002
+                </span>
+                <br>
+                Apasionados por investigar y <span class="orange">gestionar el conocimiento desde la experiencia humana y de consumo</span>, partimos de bases sólidas que nos permiten <span class="orange">adaptarnos de forma líquida y responder</span> con calidad, creatividad y eficiencia en el <span class="orange">acompañamiento consultivo para la toma de decisiones de nuestros clientes. </span>
+              </p>  
+
+              <p class="blanco small-text" style="text-align:justify;">
+                En cada una de nuestras áreas de especialidad y divisiones de negocio, nuestros clientes encuentran satisfacción a sus necesidades, lo que nos ha dado continuidad y relaciones de largo plazo con nuestros clientes.
+              </p>                          
+              </div>
+      </div>
+<!-- 
+              <a data-target="modal2" class="modal-trigger"><img src="img/adn/2.png" class="responsive-img fromRight showbyscroll ble"></a>
+ -->              
+      <div class="columns small-12 medium-6 even somos">
+        <div class="columns small-3">
+              <a data-target="modal1" class="modal-trigger"><img src="img/iconosfinalevidens/4.png" class="responsive-img fromRight showbyscroll ble" style="margin-top:9.7em;"></a>
+        </div>
+        <div class="columns small-3">
+              <a data-target="modal3" class="modal-trigger"><img src="img/iconosfinalevidens/8.png" class="responsive-img fromRight showbyscroll ble" style="margin-top:3em;"></a>
+              <a data-target="modal4" class="modal-trigger"><img src="img/iconosfinalevidens/7.png" class="responsive-img fromRight showbyscroll ble"></a>
+              <a data-target="modal5" class="modal-trigger"><img src="img/iconosfinalevidens/1.png" class="responsive-img fromRight showbyscroll ble"></a>
+        </div>
+        <div class="columns small-3"  style="float:left">
+              <a data-target="modal6" class="modal-trigger"><img src="img/iconosfinalevidens/9.png" class="responsive-img fromRight showbyscroll ble"></a>
+              <a data-target="modal7" class="modal-trigger"><img src="img/iconosfinalevidens/2.png" class="responsive-img fromRight showbyscroll ble"></a>
+              <a data-target="modal8" class="modal-trigger"><img src="img/iconosfinalevidens/5.png" class="responsive-img fromRight showbyscroll ble"></a>
+              <a data-target="modal9" class="modal-trigger"><img src="img/iconosfinalevidens/3.png" class="responsive-img fromRight showbyscroll ble"></a>
+        </div>
+        <div class="columns small-3">
+              <a data-target="modal2" class="modal-trigger"><img src="img/iconosfinalevidens/6.png" class="responsive-img fromRight showbyscroll ble" style="margin-top:9.7em;"></a>
+        </div>
+      </div>
+  </div>
+</div><!--fin slide-->
+
+<div class="stars">
+  <div class="slide row height-auto" data-background="#275796" style="width:100%; height:100%; padding:0">
+    <div class="columns small-12">
+        <p class="blanco" style="text-align:justify;"><center><strong class="big blanco">INTERVENCIONES METODOLÓGICAS &copy;</strong></center></p><br>
+        <p class="blanco" style="text-align:justify; padding-left:30px; padding-right:30px;">
+        Enriquecemos las estructuras metodológicas tradicionales, a través de un <span class="orange bold">Modelo de intervenciones metodológicas, exclusivo de Evidens</span> que incluye diversas disciplinas con el fin de dar mayor <span class="orange bold">poder a nuestros clientes en sus decisiones y estrategias.</span>
+        </p>
+    </div>
+    <div class="small-12 columns" style="padding-bottom: 1em">
+      <div class="small-12 medium-6 columns" style="padding-left:30px; padding-right:30px;padding-top: 4em; font-family: 'Josefin Sans'">
+          <span class="orange" style="text-align:center; display: block">Llevamos al extremo el Ad-Hoc</span>
+        </span>
+        <ul class="check">
+          <li>Diseñamos vías de solución puntuales para cada necesidad</li>
+          <li>Hacemos eficiente la inversión de tus recursos en investigación</li>
+          <li>Producimos respuestas personalizadas</li>
+        </ul>
+      </div>
+      <div class="small-12 medium-6 columns">
+        <img src="img/0.png" class="responsive-img fromRight showbyscroll ble">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="slide height-auto" id="acerca" data-background="#10b6a4" style="width:100%; height:100%; padding:1em 0"> 
+    <div class="row">
+      <div class="columns small-12">
+         <p style="text-align:center;margin:0"><strong class="big whiti" style="font-size: 2em">EXPERIENCIA EN SEGMENTOS, CATEGORÍAS, CONTEXTOS Y SITUACIONES</strong></p>
+         <center style="text-align:center;margin:0;" class="whiti">
+          #GestionamosConocimiento
+          <br>
+          #ConsumidorDelFuturo
+        </center>
+        <div class="columns small-12">
+          <p class="blanco" style="text-align:justify;">
+            Exploramos <span class="orange">todos los ángulos del mercado ahora y observando el futuro</span>, incluyendo distintos perfiles, productos de consumo masivo, servicios de distintos giros, hasta los trasfondos sociológicos y psicológicos de grupos, localidades y culturas que influyen las <span class="orange">decisiones y vínculos que orientan tendencias </span> y conformación social.
+          </p> 
+        </div>
+        <div class="columns small-12" style="text-align:center">
+          <img src="img/evidens1.png" style="width: 200px">
+          <img src="img/evidens2.png" style="width: 200px">
+        </div>
+      </div>
+    </div>
+    <div class="columns small-6" style="padding-bottom: 2em">
+      <div class="columns small-12 medium-4">
+        <img src="img/iconosmsevidens/1.png">
+        <img src="img/iconosmsevidens/2.png">
+        <img src="img/iconosmsevidens/3.png">
+        <img src="img/iconosmsevidens/4.png">
+        <img src="img/iconosmsevidens/5.png">
+      </div>
+      <div class="columns small-12 medium-4" style="margin-top:3em">
+        <img src="img/iconosmsevidens/6.png">
+        <img src="img/iconosmsevidens/7.png">
+        <img src="img/iconosmsevidens/8.png">
+        <img src="img/iconosmsevidens/9.png">
+      </div>
+      <div class="columns small-12 medium-4" style="margin-top:8em">
+        <img src="img/iconosmsevidens/10.png">
+        <img src="img/iconosmsevidens/11.png">
+      </div>
+    </div>
+    <div class="columns small-6" style="padding-top:8em;padding-bottom: 2em">
+      <div class="columns small-12 medium-3">
+        <img src="img/iconosmsevidens/A1.png">
+      </div>
+      <div class="columns small-12 medium-3">
+        <img src="img/iconosmsevidens/A2.png">
+      </div>
+      <div class="columns small-12 medium-3">
+        <img src="img/iconosmsevidens/A3.png">
+      </div>
+      <div class="columns small-12 medium-3">
+        <img src="img/iconosmsevidens/A4.png">
+      </div>
+    </div>
+</div>
+<div class="row"></div>
+  <div class="chava">
+    <div class="slide row height-auto white-text" id="categorias" data-background="#452B77" style="width:100%; height:100%;padding-bottom: 5em">
+      <div class="columns small-12 medium-6">
+      <div class="row">
+      <div class="columns small-12 white-text">
+      <br>
+      <p class="blanco" style="text-align:center;"><center class="big condensed" style="font-size: 1.5em">RECONFIGURAMOS EL CONCEPTO DE “EQUIPO MULTIDISCIPLINARIO”</center><br><br>
+      <span class="blue">
+        Evidens es una comunidad que crea y se construye desde la suma de la diversidad
+      </span>
+      con profesiones que se entremezclan con perfiles versátiles, 
+      de intereses, visiones y experiencias que aportan visión 
+      amplia a la respuesta líquida y eficiente para nuestros 
+      clientes.
+      <br>
+      <br>
+      El intercambio multidisciplinario nos ayuda a <span class="blue">transformar 
+      la mirada</span> sobre la experiencia íntima del individuo, hasta 
+      los imaginarios sociales que definen los mercados.
+      </p>
+      </div>
+      </div>
+    </div>              
+    <div class="columns small-12 medium-6 even">
+      <p><img src="img/cerebro1.png" class="responsive-img fromRight showbyscroll ble"></p>
+    </div>  
+    </div>
+</div>
+<div class="slide row height-auto" id="como" data-background="#333" style="width:100%; height:100%;">
+            <div class="columns small-12 medium-6">
+                  <div class="row">
+                    <div class="columns small-12 white-text">
+                    <p class="blanco condensed" style="text-align:justify;"><strong class="big condensed">NUESTRO EQUIPO</strong><br><br>
+                    <div class="columns small-6">
+                        <div class="guy 0">
+                          Omar Estrada <br>
+                          <span class="light">Director general </span><br><br>  
+                          </div>
+                  
+                        <div class="guy 2">
+                          Sergio Anda <br>
+                          <span class="light">Director comercial</span> <br><br>
+                          </div>
+                        <div class="guy 5">
+                          Arely Villa <br>
+                          <span class="light">Gerente de proyectos</span><br><br>
+                          </div>
+                        <div class="guy 6">
+                          Ildefonso Leonides <br>
+                          <span class="light">Investigador analista</span> <br><br>
+                          </div>
+                        <div class="guy 8">
+                          Edith Cruz <br>
+                          <span class="light">Gerente de Logística Gesell</span> <br><br>
+                          </div>
+                        <div class="guy 10">
+                          Montserrat Escoto <br>
+                          <span class="light">Ejecutiva de cámaras</span> <br><br>
+                        </div> 
+                        <div class="guy 9">
+                          Anel Absalón <br>
+                          <span class="light">Coordinadora administrativa</span> <br><br>
+                          </div>  
+                      </div>          
+                      <div class="columns small-6">
+                        <div class="guy 1">
+                          Gloria Hidalgo <br>
+                          <span class="light">Directora comercial</span> <br> <br>
+                          </div>
+                        <div class="guy 4">
+                          Hilda Vera <br>
+                          <span class="light">Gerente de proyectos</span> <br> <br>
+                          </div>
+                        <div class="guy 3">
+                          Guillermo Martínez <br>
+                          <span class="light">Gerente de proyectos</span> <br><br>
+                          </div>
+                  
+                        <div class="guy 7">
+                          Celeste Argumedo <br>
+                          <span class="light">Investigador analista</span> <br><br>
+                          </div>
+                        <div class="guy 12">
+                          Marco Villa<br>
+                          <span class="light">Investigador Analista</span> <br><br>
+                          </div>
+                        <div class="guy 11">
+                          Adriana Camal<br>
+                          <span class="light">Operador Logístico G14</span> <br><br>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>              
+          <div class="preview columns small-12 medium-6" style='padding-top: 6em;'>
+            <p><img src="img/foto.png" class="previewed responsive-img fromRight showbyscroll ble"></p>
+            <div class="row">
+              <div class="row margin white-text"> 
+                <div class="previewed hidden row margin 12">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                  Sociólogo de la UAM.
+                  Entusiasta del ejercicio, salir con amigos y pasear a sus
+                  perros. 
+                  De mirada abierta para conocer el mundo a través de la 
+                  comida, especialmente con platillos nuevos.
+                </div>
+                <div class="previewed hidden row margin 11">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                  Bailarina frustrada, pero apasionada de bailar salsa y
+                  cantante de regadera. 
+                  Si necesitas alguien que te contagie su energía y buen 
+                  humor, ella es la mejor.
+                  Aprende día a día sobre el maravilloso arte de la logística 
+                  en Evidens.
+                </div>
+                <div class="previewed hidden row margin 10">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Enfocada, comprometida y dispuesta a dar una buena cara, reflejo de paciencia, amabilidad y dedicación. Se deleita con la música que describe al México cotidiano y pedalea constantemente por la Ciudad. 
+
+                </div>
+                <div class="previewed hidden row margin 9">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Administradora de Evidens Group pero no de su vida, apasionada de los ritmos latinos y de bailar salsa, siempre dispuesta a escuchar y entregar una sonrisa. Bartender frustrada pero lista para preparar unos magníficos “dragones” y “muppeps”. 
+
+                </div>
+                <div class="previewed hidden row margin 8">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Apasionada, bromista y sonriente más cuando disfruta de un buen juego de pelota; en Grupo Evidens encontró que el trabajo no es sólo trabajo sino una gran diversión que día a día tiene nuevos retos y satisfacciones, y, que al cerrar el día, siempre debe ir acompañado de una buena canción de Metal.
+
+                </div>
+                <div class="previewed hidden row margin 7">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Investigadora en Evidens Group, agente creativa de contenidos y cazadora de nuevas tecnologías; un ente social casi extinto por su nivel de sarcasmo y de ironía dramática. Nunca baja la guardia ante los retos o circunstancias cambiantes y gusta de filosofar bajo la luz de la luna. 
+                </div>
+                <div class="previewed hidden row margin 6">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Moderador y analista con experiencia en diversos estudios sociales y de mercado desde un enfoque cualitativo. Apasionado de la antropología social y obsesionado por las series, el cine e irremediablemente amante del básquetbol
+                </div>
+                <div class="previewed hidden row margin 5">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                La investigación de mercados es su pretexto gratificante para perseguir realidades y personalidades. Es pambolera de medio tiempo, ciclista de ocasión y gran fanática del chocolate. Ocurrente pero educada, tremenda ocasional y prudente situacional. Siempre cultivando el espíritu del cuerpo que habita.
+                </div>
+                <div class="previewed hidden row margin 4">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Gerente de Investigación en Evidens Group. Ingeniosa y creativa con la vida. Una bailarina de Son Jarocho, amante de la cerveza, de los perros y de la música. “Molestona” por naturaleza pero dispuesta y determinada a ser el brazo fuerte de las cosas que le apasionan.
+                </div>
+                <div class="previewed hidden row margin 3">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Gerente de proyectos en Evidens Group, Torreonense de nacimiento y chilango circunstancial, apasionado del básquet bol, el ska y últimamente los perros, en una constante búsqueda de historias en distintas realidades.
+                </div>
+                <div class="previewed hidden row margin 2">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                Director comercial en Evidens Group, amante de los deportes, el ejercicio y de la playa. Está siempre en la búsqueda de encontrar y hacer cosas creativas e innovadoras; puede ser en una buena pizza o en una corcholata, una banqueta, bailando o en su almohada, porque es muy dormilón.
+                </div>
+                <div class="previewed hidden row margin 1">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                  Colabora en Evidens desde la diversificación de la Dirección Comercial. Alma de artista que busca divertirse en cada reto intelectual y creativo, es una “investigadora veinteañera” - empezó en 1995… adivina su edad ;) – comprometida, irremediable curiosa que la lleva a ensimismamientos repentinos y revoluciones en la mente… pero aunque la curiosidad la mate, aún tiene muchas vidas por investigar. De ideas necias, y cabellera azul con intensa vida propia.
+                </div>
+                <div class="previewed hidden row margin 0">
+                <img src="http://previews.123rf.com/images/warrengoldswain/warrengoldswain1107/warrengoldswain110700194/9967961-Cerrar-un-retrato-sonriente-persona-corporativa-en-traje-de-negocios-negro-aislado-en-blanco--Foto-de-archivo.jpg" alt="">
+                  Eje conductor de Evidens Group, gestor de conocimiento desde la experiencia humana y de consumo, cronista de la vida cotidiana, cazador de intervenciones visuales y un apasionado de la Ciudad y de la observación de las diferentes manifestaciones urbanas. Chivista por decisión y sociólogo por convicción. 
+                </div>
+              </div>
+            </div>
+          </div>    
+</div>
+
+<div class='graffiti'>
+  <div class="row height-auto slide relative" data-background="#272b2f" id="infografias">
+    <div class="columns small-12">
+        <center><strong class="big blanco">EVIDENS-ia</strong></center>
+        <center><strong class="big blanco">#ConocimientoLíquido</strong></center>
+        <div class="columns small-12">
+          <p class="blanco" style="text-align:justify;">
+            La Evidens-ia es un <span class="orange">microestudio
+            mensual para aportar datos y
+            reflexiones que provoquen e
+            inspiren.</span>
+            Abordamos al consumidor mexicano, las
+            audiencias y diversos temas coyunturales y
+            de oportunidad.
+            Es ejemplo de una <span class="orange">metodología
+            innovadora y flexible, presentada
+            en infografías</span> para respuestas rápidas y
+            precisas: <span class="orange">Active E-panel &copy;</span>
+          </p> 
+        </div>
+        <br>
+    </div>
+    <div class="row cont-infografias">
+      <center>
+        <div class="columns small-12 medium-3 image">
+          <img src="img/infografias/info2.jpg" class="responsive-img info">
+        </div>
+        <div class="columns small-12 medium-3 image">
+          <img src="img/infografias/info3.jpg" class="responsive-img info">
+        </div>
+        <div class="columns small-12 medium-3 image">
+          <img src="img/infografias/info1.jpg" class="responsive-img info" >
+        </div>
+        <div class="columns small-12 medium-3 image">
+          <img src="img/infografias/info4.jpg" class="responsive-img info">
+        </div>
+      </center>
+  </div>
+
+  </div>
+</div>
+  <div class="row height-auto slide" id="contacto"  data-background="#0e1318">
+<p class="blanco" style=""><center><strong class="big blanco">CONTACTO</strong></center><br><br></p>    
+<div class="map-wrapper">
+  <div class="contact">
+    <div class="title">Email:</div>
+    <div class="text light">
+      evidens@evidens.com.mx
+    </div>
+    <div class="title">dirección:</div>
+    <div class="text light ">
+      Torre Hemicor Insurgentes Sur 826 <br>
+  Piso 14, Col. Del Valle. <br>
+  Ciudad de México.  <br>
+    </div>
+    <div class="title">teléfonos:</div>
+    <div class="text light">
+      52 5264 0759 <br>
+      52 5536 1601 <br>
+      52 5536 1627 <br>
+    </div>
+  </div>
+  <div id="map"></div>
+  <footer class="footer">
+    <div class="text-left">
+      Evidens &#174; Todos los derechos reservados
+    </div>
+    <div class="image-logo"></div>
+    <div class="social">
+      <a target='_blank'href="https://www.facebook.com/Evidens-Investigaci%C3%B3n-de-Mercados-357854387647984"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a target='_blank'href="https://twitter.com/MiradaEvidens"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a target='_blank'href="https://instagram.com/evidens_significados"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+</div>
+
+<script src='js/jquery.scrollie.min_1.js'></script>
+<script src="js/index.js"></script>
+<script src="js/lightbox.min.js"></script>
+<!-- <script src="js/main.js"></script> -->
+<script src="js/map.js"></script>
+<div class="pop-up"><img src=""/></div>
+<div id="modal1" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          EVIDENS RESEARCH – Investigación y consultoría integradas
+        </span>
+        <span class="text">
+          Especialistas en Investigación multicontextos. Trabajamos para ser agentes de cambio e inspirar desde el aprendizaje como elemento activo, redescubriendo a las grandes marcas hasta los nuevos emprendedores, interviniendo desde el campo hasta el contexto urbano.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal2" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+      <a target='_blank' href="http://www.camarasdegesell.com/">
+        <span class="title">
+          GESELL 14 – Facilities creativas con servicio de alto nivel
+        </span>
+        <span class="text">
+          Conoce nuestro servicio de Cámaras que se ubican en un edificio corporativo bajo un modelo de <span style='text-decoration: underline;'>Cámaras de Gesell Ejecutivas</span> con facilies ad-hoc.
+        </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal3" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          ANTROPOLOGÍA – Experimentar al mercado.
+        </span>
+        <span class="text">
+          Nuestro profundo fundamento social y antropológico nospermite acercarnos a los imaginarios sociales y ser una
+          extensión de tu mirada en el mercado, con inmersión en los
+          contextos y realidades de cómo se viven, incorporan y
+          experimentan tus productos y servicios.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal4" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          AGRO & VET
+        </span>
+        <span class="text">
+         Tenemos un alto conocimiento de la realidad del campo mexicano interactuando con agricultores, ganaderos y distribuidores, manejando su lenguaje y códigos para acercarnos a su cotidianidad.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal5" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          BOUTIQUE 360 – Consultoría para hacer crecer emprendedores y marcas.
+        </span>
+        <span class="text">
+          Colaboramos con el desarrollo de la industria nacional,
+          potenciando las oportunidades del emprendedor mexicano,
+          con consultoría que capitaliza la experiencia Evidens con grandes marcas nacionales e internacionales.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal6" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          BACK LIGHT – Hacemos equipo contigo desde el apoyo externo
+        </span>
+        <span class="text">
+         Soporte y acompañamiento integral en tus procesos de investigación. Nos convertimos en tu brazo cualitativo de corte antropológico.
+        </span>
+    </div>
+    </div>
+  </div>
+</div>
+<div id="modal8" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          EVIDENS CUANTITATIVO – Dimensionamos la profundidad
+        </span>
+        <span class="text">
+          Servicio profesional de levantamiento ético y de compromiso con el dato bajo un modelo de supervisión integral que nos permite garantizar el 100% de la confiabilidad de nuestro trabajo de campo.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal7" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          C.I.N.E. 7 – Capacitación para potenciar tu acercamiento al target.
+        </span>
+        <span class="text">
+          Capacitación que Inspira a Nuevos Entendimientos. Cursos diseñados para usuarios de investigación, para hipersensibilizar la mirada en el mercado, desarrollar los sentidos para capturar realidades y códigos del consumidor y sus contextos
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+<div id="modal9" class="modal trans">
+  <div class="areas">
+    <div class="area row">
+      <div class="area-description columns small-12">
+        <span class="title">
+          AXON 86 – Neurociencias aplicadas al Marketing
+        </span>
+        <span class="text">
+          Evolucionando las formas para entender al
+          consumidor, develamos las instancias más
+          primarias y profundas del comportamiento
+          humano y de consumo
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<script>
+  $('.guy').mouseover(function(){
+    var guy = $(this).attr('class').split(' ')[1];
+    $('.guy').removeClass('active')
+    $(this).addClass('active')
+    $('.preview .previewed').not('.'+guy).addClass('hidden');
+    $('.preview .previewed.'+guy).removeClass('hidden');
+  });
+  $(document).ready(function (){
+      var images = $(".slider");
+      var duration = 30; // duration in seconds
+      var fadeAmount = 0.3; // fade duration amount relative to the time the image is visible
+      var numImages = images.size();
+      var durationMs = duration * 1000;
+      var imageTime = durationMs / numImages; // time the image is visible 
+      var fadeTime = imageTime * fadeAmount; // time for cross fading
+      var visibleTime = imageTime  - (imageTime * fadeAmount * 2);// time the image is visible with opacity == 1
+      var animDelay = visibleTime * (numImages - 1) + fadeTime * (numImages - 2); // animation delay/offset for a single image 
+      console.log(images);
+      images.each( function( index, element ){
+        if(index != 0){
+          $(element).css("opacity","0");
+          setTimeout(function(){
+            doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);
+          },visibleTime*index + fadeTime*(index-1));
+        }else{
+          setTimeout(function(){
+            $(element).animate({opacity:0},fadeTime, function(){
+              setTimeout(function(){
+                doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);
+              },animDelay )
+            });
+          },visibleTime);
+        }
+      });
+
+      // creates a animation loop
+      function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime){
+        fadeInOut(element,fadeInTime, visibleTime, fadeOutTime ,function(){
+          setTimeout(function(){
+            doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime);
+          },pauseTime);
+        });
+      }
+
+      // shorthand for in- and out-fading
+      function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
+        return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);
+      }
+    });
+</script>
+</body>
+</html>
+        
+
