@@ -123,17 +123,26 @@
   display: table;
 }
 .row.previewed{
-  padding: 2em 1em;
-  background: rgba(0,0,0,0.2);
+  padding: 2em;
+  background: rgba(0,0,0,0);
+  border: 1px solid #fff;
   text-align: left;
   font-family: "Josefin Sans";
-  min-height: 17em;
+  height: 18em;
+  display: flex;
+}
+.row.previewed *{
+  flex-shrink: 1;
+  align-self: center;
 }
 .row.previewed img{
   display: block;
   max-width: 5em;
-  margin: auto;
   margin-bottom: 1em;
+}
+.row.previewed span{
+  display: inline-block;
+  padding-left: 2em;
 }
 .small-text{
   font-size: .8em;
@@ -170,7 +179,7 @@ body {
   font-size: 16px;
   overflow-x: hidden;
   text-align: left;
-  background-color: #436490;
+  background-color: #7f8487;
 }
 .blanco {
   color: #ffffff;
@@ -668,7 +677,7 @@ Primary style
   position: relative;
 }
 .hidden{
-  display: none
+  display: none !important
 }
 /*-----inicio hover effects-----*/
 .hero {
