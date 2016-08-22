@@ -14,6 +14,7 @@ var imageMarker = {
 };
 var lat = 19.3890307
 var lng = -99.1736613;
+var isDraggable = !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 var noPoi = [{
 	stylers:[
 		{hue: "#006eff"},
@@ -38,6 +39,7 @@ function initialize() {
     center: new google.maps.LatLng(lat, lng),
     disableDefaultUI: true,
     scrollwheel: false,
+    draggable: isDraggable,
     styles: noPoi
   }
   var map = new google.maps.Map(document.getElementById('map'), mapOptions);

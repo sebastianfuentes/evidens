@@ -19,6 +19,22 @@
   height: 100%;
   position: absolute;
 }
+.bullets-right img{
+  max-width: 120px;
+  display: block;
+  margin: auto;
+}
+.bullets-right {
+  text-align: center;
+  padding-top:8em;padding-bottom: 2em
+}
+.bullets-right span{
+  color: #fff;
+  font-size: .8em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+}
 .check{
   list-style-type: circle;
   color: #fff;
@@ -36,6 +52,25 @@
   top: 0;
   left: 0;
   opacity: 1;
+}
+.bullets-left .bullets{
+  display: flex;
+  align-content: center;
+}
+.bullets-left img{
+  display: inline-block;
+  flex-shrink:1;
+  max-height: 100px;
+  max-width: 100px;
+}
+.bullets-left span{
+  display: inline-block;
+  color: #fff;
+  font-size: .8em;
+  flex-shrink: 1;
+  align-self: center;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 @keyframes xfade{
    0%{
@@ -129,20 +164,19 @@
   text-align: left;
   font-family: "Josefin Sans";
   height: 18em;
-  display: flex;
+  display: block;
 }
-.row.previewed *{
+/*.row.previewed *{
   flex-shrink: 1;
   align-self: center;
-}
+}*/
 .row.previewed img{
   display: block;
-  max-width: 5em;
-  margin-bottom: 1em;
+  max-width: 15em;
+  /*margin-bottom: 1em;*/
 }
 .row.previewed span{
   display: inline-block;
-  padding-left: 2em;
 }
 .small-text{
   font-size: .8em;
@@ -362,6 +396,20 @@ p.last{
 }
 .even{
   padding-left: 3em !important;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+@media screen and (max-width: 480px) {
+    .even {
+        padding-left: 1em !important
+    }
+    .row.previewed{
+      height:auto;
+    }
 }
 .indented{
   display: inline-block;
